@@ -19,18 +19,18 @@ or image tag you were running (`/health` reports it).
 ## What gets a fix
 
 **The latest release, and nothing else.** vapp ships as a rolling container image
-(`ghcr.io/<namespace>/vapp-app:latest`); there are no maintained release branches, no backports and
-no LTS. A fix means: a new image, and an entry in [CHANGELOG.md](CHANGELOG.md).
+(`ghcr.io/rbnet-apps/vapp-app:latest`); there are no maintained release branches, no backports and
+no LTS. A fix means: a new image, and an entry in the changelog.
 
 If you run a self-hosted instance, updating is the whole remediation — see
-[prod/SELFHOST.md](prod/SELFHOST.md).
+the self-hosting guide (`SELFHOST.md`).
 
 ## How long you wait
 
 - **First answer: within 14 days.** vapp is maintained by one person in their spare time. That
   number is what one person can hold, and it is deliberately not "48 hours".
 - After the first answer you get a plan or a question. A fix for something exploitable takes
-  priority over everything else in [TODO.md](TODO.md).
+  priority over everything else on the board.
 - Once the fix is released, the advisory is published with credit, unless you ask otherwise.
 
 ## Scope
