@@ -2,12 +2,11 @@
 
 <!-- BILD: bilder/logo.png — public/new_logo.png auf ~160 px verkleinert -->
 
-# VAPP
+# VAPP - die Versammlungs-App
 
 **Alles, was eine Versammlung braucht**
 
-Zusammenkünfte, Gebiete und der Trolley — geplant in einer Anwendung,
-die auf eurem eigenen Server steht.
+Zusammenkünfte, Gebiete und Trolley — geplant in einer Anwendung, die auf eurem eigenen Server liegt.
 
 ![Lizenz](https://img.shields.io/badge/Lizenz-PolyForm_Noncommercial_1.0.0-0b7285)
 ![Plattform](https://img.shields.io/badge/Plattform-amd64%20%C2%B7%20arm64-495057)
@@ -18,127 +17,152 @@ die auf eurem eigenen Server steht.
 
 <!-- BILD: bilder/zusammenkuenfte.png — eine geplante Woche im Zeitplan, Aufgaben besetzt -->
 
-VAPP ist die Datenbank einer Versammlung: Gebiete, Versammlungsplan, Trolley, Bericht und
-Fremdsprachengruppe an einer Stelle, auf einem eigenen Server und ohne fremden Dienst dazwischen.
-Es hält fest, was sonst auf Zetteln und in Tabellen liegt — und es gehört der Versammlung, weil es
-auf ihrem Rechner läuft und nirgendwo sonst.
+VAPP ist die zentrale Anlaufstelle einer Versammlung:
+Gebiete, Versammlungspläne, Trolley-Planung, PD Berichte und
+Sprachengruppen.
+
+Statt Zetteln und verteilten Tabellen — alles an einer Stelle; digital und immer aktuell. Und es gehört der Versammlung, weil es auf einem eigenen Server läuft und nirgendwo sonst.
 
 > _English: VAPP is a self-hosted application for planning a congregation's meetings, territories
 > and public-witnessing cart. The interface ships in German, English, Greek and Russian; this page,
 > the setup guide and the planning documents are German. Images:
 > `ghcr.io/rbnet-apps/vapp-app` and `…/vapp-web`, for `linux/amd64` and `linux/arm64`._
 
-## In zwanzig Minuten steht die Versammlung
+## In zwanzig Minuten ist die Versammlung erstellt
 
 Kein Konto bei irgendwem, keine Anmeldung, kein Vertrag. Ein Rechner mit Docker, ein Befehl, der die
-Dateien holt, ein Einrichtungsskript, das jede Frage einzeln stellt und **jeden Schlüssel selbst
+Dateien holt, ein Einrichtungsskript, das alles Benötigte abfragt und **jeden Schlüssel selbst
 erzeugt** — danach führt ein Assistent durch die Ersteinrichtung: Versammlung, Zusammenkunftszeiten,
-Personen, Bereiche. Niemand muss vorher wissen, wie Docker, Symfony oder eine Datenbank funktioniert.
+Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank funktioniert.
 
 ## Für wen
 
-- **Eine Versammlung, die ihre Planung selbst in der Hand behalten will.** Ein Rechner, eine
-  Datenbank, eine Versammlung — es gibt keinen Mandantenumschalter und keinen Anbieter dahinter.
-- **Die, die einteilen**: Koordinator, Dienstaufseher, Gebietsdiener, Trolley-Verantwortliche.
-- **Alle anderen**, die nur nachschlagen wollen, wann sie dran sind — auf dem Handy, als App
-  installiert, mit Benachrichtigung.
+- **Selbstverwaltung, Datenhoheit.** Eine Versammlung, die ihre Planung selbst in der Hand behalten will.
+- **Planer**: Koordinator, Dienstaufseher, Gebietsdiener, Trolley-Verantwortliche.
+- **Alle anderen**, die schauen, wann sie eingeplant sind, ihr Gebiet bearbeiten wollen oder Trolleydienst eintragen — als WebApp installiert, mit Benachrichtigung und Kalender-Abo
 
-**Wofür nicht:** VAPP ist **kein offizielles Werkzeug der Organisation** und ersetzt keins. Und es
-ist keine Verwaltung für einen ganzen Kreis aus einer Hand — mehrere Versammlungen teilen sich
-höchstens einen Saal, nicht eine Anlage.
+**Wofür nicht:** VAPP ist **kein offizielles Werkzeug der Organisation** und ersetzt keins.
 
-## Was es kann
+## Was die VAPP kann
 
 ### 🔐 Eigener Betrieb, eigene Daten
 
-**Selbst gehostet.** Die Anlage läuft auf einem Rechner der Versammlung oder einem kleinen gemieteten
-Server. Es gibt keinen Dienst dazwischen, der mitliest, und keine Rechnung.
+**Selbst gehostet**
 
-**Anmeldung mit Passkey.** Fingerabdruck, Gesicht oder Geräte-PIN statt Passwort. Den ersten Zugang
-bekommt jeder als Einladung auf einem Zettel — ein QR-Code, der einmal gilt.
+- Die Anwendung läuft bei dir auf einem Rechner, bei einem Bruder der Versammlung oder einem beliebigen Server. Es gibt keinen kostenpflichtigen Dienst dazwischen, der mitliest, und keine Rechnung.
 
-**Jeder sieht, was er braucht.** Berechtigungen hängen an Rollenvorlagen und lassen sich je Person
-abweichen; wer einer Trolley-Route zugewiesen wird, sieht den Bereich dadurch schon.
+**Anmeldung mit Passkey**
+
+- Fingerabdruck, Gesicht oder Geräte-PIN statt Passwort. Den ersten Zugang
+  bekommt jeder als Einladung auf einem Zettel — ein QR-Code, der einmal gilt.
+
+**Jeder sieht, was er braucht**
+
+- Berechtigungen hängen an Vorrechten und Aufgaben und lassen sich indivuduell anpassen.
 
 <!-- BILD: bilder/berechtigungen.png — Berechtigungsmatrix einer Person, Vorlage und Abweichung -->
 
 ### 🗓️ Zusammenkünfte planen
 
-**Der Arbeitsheft-Import.** Das ePub wird eingelesen und legt die Zusammenkünfte der Wochen mit
-ihren Teilen an — gelesen wird die **Struktur** des Hefts, nicht seine Wörter, damit ein geänderter
-Wortlaut den Import nicht zerlegt.
+**Arbeitsheft/Wachtturm-Import**
 
-**Der Planungsassistent.** Für Ordnungsdienst und die wiederkehrenden Aufgaben schlägt VAPP eine
-ganze Woche auf einmal vor; ändern kann man jede Zeile einzeln.
+- Das ePub wird eingelesen und legt die Zusammenkünfte an. Lieder, Themen und Programmteile werden automatisch erstellt. Es muss nur noch die Planung der Aufgaben erfolgen.
 
-**Vorschläge, die schon sortiert sind.** Vorne steht, wer lange nicht dran war und die passende
-Qualifikation hinterlegt hat — die Liste kennt den letzten und den nächsten Einsatz jeder Person.
+**Planungsassistent**
+
+- Der Ordnungsdienstplan kann automatisiert erstellt werden. Die Planung erfolgt basierend auf der Verfügbarkeit der Personen und Häufigkeit der letzten Dienste.
+
+**Vorsortierte Vorschläge**
+
+- Oben steht, wer lange nicht dran war und für diese Aufgabe freigegeben ist. Die Auswahl kennt den letzten und den nächsten Einsatz jeder Person und zeigt es direkt mit an.
 
 ### 🗺️ Gebiete
 
-**Karten selbst zeichnen.** Gebietsgrenzen werden im Kartenwerkzeug gezogen, nicht in einem
-Grafikprogramm — mit Anschriftenliste daneben.
+**Karten erstellen**
 
-**Der Kartenanbieter ist eine Wahl.** OpenStreetMap weltweit oder das Bundesamt für Kartographie und
-Geodäsie für Deutschland. Wer die Karte liefert, steht namentlich in der Datenschutzerklärung.
+- Gebietsgrenzen werden im Kartenwerkzeug gezeichnet. Es wird kein separates Grafikprogramm benötigt. Online Anzeige oder Druck per PDF als Gebietskarte.
 
-**Verkündiger übernehmen selbst.** Wer will, gibt den Verkündigern die eigene Gebietsansicht: sehen,
-was sie haben, Bearbeitung eintragen, zurückgeben. Optional — es geht auch alles über den
-Gebietsdiener.
+**Kartenanbieter nach Wahl**
+
+- OpenStreetMap weltweit oder das Bundesamt für Kartographie und Geodäsie für Deutschland. Jeder kann optional seinen eigenen Standort in der Gebietskarte anzeigen.
+
+**Gebiet teilen**
+
+- Scanne den QR Code des Gebiets und teile es temporär mit deiner Gruppe. Einfache und sichere Freigabe für eine gemeinsame Bearbeitung.
+
+**Eigenständige Bearbeitung**
+
+- Eigenes Gebiet sehen, Adressen eintragen oder die Bearbeitung aktualisieren. Optional — es geht auch alles über den Gebietsdiener. Einfach per Parameter einstellen.
+
+**Dienstwochen mit allem, was dazugehört**
+
+- Die besondere Woche wird als Ganzes geplant, samt der
+  Ausdrucke, die sie braucht. Planung er verfügbaren Gebiete, benötigte Ausdrucke und einer Übersichtkarte - alles in einer eigenen Ansicht.
 
 <!-- BILD: bilder/gebietskarte.png — Gebietskarte mit gezeichneter Grenze und Anschriftenliste -->
 
 ### 🏛️ Rund um den Saal
 
-**Abwesenheitsplan.** Wer weg ist, trägt es ein; die Einteilung merkt den Konflikt, bevor er im Plan
-steht.
+**Abwesenheitsplan**
 
-**Raumbelegung, Reinigung, Instandhaltung.** Haupt-, Zwischen- und Übergabereinigung, wer welchen
-Raum wann hat, und was zu tun ist.
+- Wer weg ist, trägt es ein; die Planungsassistenten berücksichtigen es direkt bei den Vorschlägen.
 
-**Geteilter Saal, geteilter Plan.** Versammlungen, die sich einen Saal teilen, treten einer Gruppe
-bei und stellen Reinigungspläne und allgemeine Angaben versammlungsübergreifend bereit.
+**Raumbelegung, Reinigung, Instandhaltung**
+
+- Haupt-, Zwischen- und Übergabereinigung, wer welchen
+  Raum wann belegt und digitale Arbeitsblätter für die Instandhaltung.
+
+**Geteilter Saal, geteilter Plan**
+
+- Versammlungen, die sich einen Saal teilen, treten einer Versammlungs-Gruppe
+  bei und stellen Reinigungspläne und allgemeine Angaben versammlungsübergreifend bereit.
 
 <!-- BILD: bilder/raumplan.png — Raumbelegung oder Reinigungsplan über mehrere Wochen -->
 
-### 🛒 Öffentliches Zeugnisgeben
+### 🛒 Trolley-Planung
 
-**Eigene Routen und Standorte.** Schichten werden einmal eingerichtet und laufen danach von selbst
-weiter; Literatur und Ausstattung hängen an der Route.
+**Eigene Routen und Standorte**
 
-**Selbst eintragen.** Wer mitmacht, bucht seine Schicht selbst — die Verantwortlichen sehen den Stand,
-statt Listen zu führen.
+- Schichten und Zeiten werden einmal eingerichtet und laufen danach von selbst weiter; optionales Eintragen von Abgaben.
 
-**Dienstwochen mit allem, was dazugehört.** Die besondere Woche wird als Ganzes geplant, samt der
-Ausdrucke, die sie braucht.
+**Selbständige Planung**
 
-![Der Trolley-Kalender mit Bereichswechsler und Bereichsmenü](https://raw.githubusercontent.com/rbnet-apps/vapp/main/media/trolley-calendar.png)
+- Wer einer Route zugeteilt wurde, bucht seine Schicht selbst — die Verantwortlichen sehen den Stand, statt Listen zu führen.
 
-### 📣 Erreichen und Überblick
+**Statistik**
 
-**Push und E-Mail.** Beides einzeln im Profil einstellbar. Benachrichtigt wird, wen es betrifft.
+- Verschaffe dir schnell einen Überblick, welche Route wie oft gebucht wird, welche Zeite besonders gefragt sind oder in welchen Sprachen Abgaben erfolgen.
 
-**Eilmeldungen an alle.** Wenn es einmal wirklich alle angeht, geht die Ansage an alle — als
-Nachricht, die man nicht übersieht.
+<!-- ![Der Trolley-Kalender mit Bereichswechsler und Bereichsmenü](https://raw.githubusercontent.com/rbnet-apps/vapp/main/media/trolley-calendar.png) -->
 
-**Auswertungen.** Wer wann zuletzt eingeteilt war, was offen ist, was sich häuft. Dazu ein
-Kalender-Abo, das die eigenen Termine in die Kalender-App des Handys legt.
+### 📣 Kommunikation und Überblick
+
+**Push und E-Mail**
+
+- Beides einzeln im eigenen Profil einstellbar. Benachrichtigt wird nur, wen es jeweils betrifft.
+
+**Eilmeldungen**
+
+- Versende eine Info an alle oder bestimmte Personengruppen — als Nachricht, die man nicht übersieht.
+
+**Kalender-Abo**
+
+- Verpasse keine Termine mehr. Aboniere die eigenen Einträge direkt in deiner Kalender-App des Handys oder Computers.
 
 <!-- BILD: bilder/statistik.png — eine Auswertung mit letztem und nächstem Einsatz -->
 
 **Alle Funktionen im Einzelnen: [FUNKTIONEN.md](FUNKTIONEN.md).**
 
-## Was gebraucht wird
+## Die Technik - was gebraucht wird
 
-- Ein **Linux-Rechner mit Docker** und dem Compose-Plugin. Ein kleiner gemieteter Server oder ein
-  Rechner im Versammlungsnetz reicht; x86-64 und arm64 laufen beide.
-- Ein **Domänenname**, der auf diesen Rechner zeigt.
+- Ein **Linux-Rechner mit Docker** und dem Compose-Plugin. x86-64 und arm64 laufen beide.
+- Eine eigene **Domain**, die auf diesen Rechner zeigt.
 - Ein **TLS-Zertifikat**. VAPP bringt einen Reverse Proxy mit und holt es selbst bei Let's Encrypt —
   wer schon nginx oder Traefik davor hat, hängt es dahinter.
-- Ein **SMTP-Zugang** — der Mailanbieter, den die Versammlung ohnehin benutzt.
-- Etwa **zwanzig Minuten**.
+- Ein **SMTP-Zugang** zum versenden der Mails aus der VAPP.
+- Etwa **zwanzig Minuten** für die Ersteinrichtung.
 
-> **Zwei Dinge entscheiden vorher über Ja oder Nein.**
+> **Hinweis:**
 >
 > **Eine IP-Adresse genügt nicht.** Passkeys verlangen einen Domänennamen und eine gesicherte
 > Verbindung — der Browser führt die Anmeldung sonst gar nicht erst aus.
@@ -148,9 +172,8 @@ Kalender-Abo, das die eigenen Termine in die Kalender-App des Handys legt.
 
 ## Loslegen
 
-Alles, was zum Betrieb gehört — Compose-Datei, Einrichtungs-, Start-, Sicherungs- und
-Rückspielskript und die vollständige Anleitung — steckt **im Image**. So gehören Bündel und
-Anwendung derselben Fassung an.
+Alles, was zum Betrieb gehört — Compose-Datei, Einrichtungs-, Start-, Backup- und
+Restorescript und die vollständige Anleitung — steckt **im Image**.
 
 ```bash
 mkdir -p ~/vapp && cd ~/vapp
@@ -159,11 +182,7 @@ docker run --rm ghcr.io/rbnet-apps/vapp-app:latest tar -C /opt/vapp-bundle -cf -
 ./start.sh
 ```
 
-Danach im Browser **`https://<domäne>/commissioning`** aufrufen und das Betreiberkonto anlegen.
-
-> **Jetzt, nicht später.** Solange kein Konto existiert, kann jeder, der die Adresse kennt, dieses
-> Formular ausfüllen und damit Betreiber dieser Anlage werden. Das Fenster ist kurz, aber es
-> schließt sich erst, wenn das Formular abgeschickt ist.
+Danach im Browser **`https://<domain>/commissioning`** aufrufen und das Betreiberkonto anlegen.
 
 > ⚠️ **Ein Schlüssel muss aufbewahrt werden.** `NOTES_ENCRYPTION_KEY` verschlüsselt die Notizen in der
 > Datenbank. Eine Sicherung, die ohne ihn zurückgespielt wird, hat Notizen, die niemand mehr lesen
@@ -171,14 +190,14 @@ Danach im Browser **`https://<domäne>/commissioning`** aufrufen und das Betreib
 > in dem es ihn erzeugt.
 
 **Die ganze Anleitung ist [SELFHOST.md](SELFHOST.md)** — die fünf Schritte, die Sicherungen, was zu
-tun ist, wenn etwas klemmt. Sie liegt auch im entpackten Bündel und wird dort gepflegt.
+tun ist, wenn etwas klemmt. Sie liegt auch im entpackten Paket und wird dort gepflegt.
 
 ## Die Images
 
-| Image                         | Was darin ist                                                                        |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| `ghcr.io/rbnet-apps/vapp-app` | die Anwendung — PHP-FPM, die Konsole und das Betriebsbündel unter `/opt/vapp-bundle` |
-| `ghcr.io/rbnet-apps/vapp-web` | nginx davor, mit den gebauten Oberflächendateien                                     |
+| Image                         | Was darin ist                                                                 |
+| ----------------------------- | ----------------------------------------------------------------------------- |
+| `ghcr.io/rbnet-apps/vapp-app` | die Anwendung — PHP-FPM, die Konsole und die Dateien unter `/opt/vapp-bundle` |
+| `ghcr.io/rbnet-apps/vapp-web` | nginx davor, mit der gebauten UI                                              |
 
 Beide für **`linux/amd64` und `linux/arm64`** — ein gemieteter x86-Server und ein Raspberry Pi laufen
 gleich gut. `latest` ist die aktuelle Fassung; daneben steht jeder Bau unter seinem Commit, zum
@@ -187,14 +206,14 @@ hoch, aus der Compose-Datei im Bündel.
 
 ## Womit es gebaut ist
 
-| Schicht          | Was                                                                |
-| ---------------- | ------------------------------------------------------------------ |
-| Anwendung        | Symfony 8.1, PHP 8.5, Doctrine ORM 3                               |
-| Oberfläche       | Twig serverseitig, Stimulus, TypeScript, SCSS, Bootstrap 5.3       |
-| Auslieferung     | PWA — installierbar, Service Worker, Web Push. Keine native Hülle. |
-| Datenbank        | MySQL 8.4                                                          |
-| Zwischenspeicher | Redis, Symfony Messenger                                           |
-| PDF              | Gotenberg (Chromium)                                               |
+| Schicht          | Was                                                              |
+| ---------------- | ---------------------------------------------------------------- |
+| Anwendung        | Symfony 8.1, PHP 8.5, Doctrine ORM 3                             |
+| Oberfläche       | Twig serverseitig, TypeScript, SCSS, Bootstrap 5.3               |
+| Auslieferung     | PWA — installierbar, Service Worker, Web Push. Keine native App. |
+| Datenbank        | MySQL 8.4                                                        |
+| Zwischenspeicher | Redis, Symfony Messenger                                         |
+| PDF              | Gotenberg (Chromium)                                             |
 
 ## Lizenz
 
