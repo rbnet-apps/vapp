@@ -19,7 +19,7 @@ Zusammenkünfte, Gebiete und Trolley — geplant in einer Anwendung, die auf eur
 
 VAPP ist die zentrale Anlaufstelle einer Versammlung:
 Gebiete, Versammlungspläne, Trolley-Planung, PD Berichte und
-Sprachengruppen.
+Sprachgruppen.
 
 Statt Zetteln und verteilten Tabellen — alles an einer Stelle; digital und immer aktuell. Und es gehört der Versammlung, weil es auf einem eigenen Server läuft und nirgendwo sonst.
 
@@ -58,7 +58,7 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Jeder sieht, was er braucht**
 
-- Berechtigungen hängen an Vorrechten und Aufgaben und lassen sich indivuduell anpassen.
+- Berechtigungen hängen an Vorrechten und Aufgaben und lassen sich individuell anpassen.
 
 <!-- BILD: bilder/berechtigungen.png — Berechtigungsmatrix einer Person, Vorlage und Abweichung -->
 
@@ -80,15 +80,15 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Karten erstellen**
 
-- Gebietsgrenzen werden im Kartenwerkzeug gezeichnet. Es wird kein separates Grafikprogramm benötigt. Online Anzeige oder Druck per PDF als Gebietskarte.
+- Gebietsgrenzen werden im Kartenwerkzeug gezeichnet. Es wird kein separates Grafikprogramm benötigt. Als Online-Ansicht oder Druck per PDF als Gebietskarte.
 
 **Kartenanbieter nach Wahl**
 
-- OpenStreetMap weltweit oder das Bundesamt für Kartographie und Geodäsie für Deutschland. Jeder kann optional seinen eigenen Standort in der Gebietskarte anzeigen.
+- OpenStreetMap weltweit oder das Bundesamt für Kartographie und Geodäsie für Deutschland. Jeder kann optional seinen eigenen Standort in der Gebietskarte anzeigen lassen.
 
 **Gebiet teilen**
 
-- Scanne den QR Code des Gebiets und teile es temporär mit deiner Gruppe. Einfache und sichere Freigabe für eine gemeinsame Bearbeitung.
+- Scanne den QR-Code des Gebiets und teile es temporär mit deiner Gruppe. Einfache und sichere Freigabe für eine gemeinsame Bearbeitung.
 
 **Eigenständige Bearbeitung**
 
@@ -97,7 +97,7 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 **Dienstwochen mit allem, was dazugehört**
 
 - Die besondere Woche wird als Ganzes geplant, samt der
-  Ausdrucke, die sie braucht. Planung er verfügbaren Gebiete, benötigte Ausdrucke und einer Übersichtkarte - alles in einer eigenen Ansicht.
+  Ausdrucke, die sie braucht. Planung der verfügbaren Gebiete, benötigte Ausdrucke und eine Übersichtkarte - alles in einer eigenen Ansicht.
 
 <!-- BILD: bilder/gebietskarte.png — Gebietskarte mit gezeichneter Grenze und Anschriftenliste -->
 
@@ -105,7 +105,7 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Abwesenheitsplan**
 
-- Wer weg ist, trägt es ein; die Planungsassistenten berücksichtigen es direkt bei den Vorschlägen.
+- Wer abwesend ist, trägt es ein; die Planungsassistenten berücksichtigen es direkt bei den Vorschlägen.
 
 **Raumbelegung, Reinigung, Instandhaltung**
 
@@ -127,11 +127,11 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Selbständige Planung**
 
-- Wer einer Route zugeteilt wurde, bucht seine Schicht selbst — die Verantwortlichen sehen den Stand, statt Listen zu führen.
+- Wer freigegeben wurde, bucht seine Schicht selbst — die Verantwortlichen sehen den Stand, statt Listen zu führen.
 
 **Statistik**
 
-- Verschaffe dir schnell einen Überblick, welche Route wie oft gebucht wird, welche Zeite besonders gefragt sind oder in welchen Sprachen Abgaben erfolgen.
+- Verschaffe dir schnell einen Überblick, welche Route wie oft gebucht wird, welche Zeiten besonders gefragt sind oder in welchen Sprachen Abgaben erfolgen.
 
 <!-- ![Der Trolley-Kalender mit Bereichswechsler und Bereichsmenü](https://raw.githubusercontent.com/rbnet-apps/vapp/main/media/trolley-calendar.png) -->
 
@@ -139,15 +139,15 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Push und E-Mail**
 
-- Beides einzeln im eigenen Profil einstellbar. Benachrichtigt wird nur, wen es jeweils betrifft.
+- Beides optional einzeln im eigenen Profil einstellbar. Benachrichtigt wird nur, wen es jeweils betrifft.
 
 **Eilmeldungen**
 
-- Versende eine Info an alle oder bestimmte Personengruppen — als Nachricht, die man nicht übersieht.
+- Versende eine Info an alle oder eine bestimmte Personengruppe — als Nachricht, die man nicht übersieht.
 
 **Kalender-Abo**
 
-- Verpasse keine Termine mehr. Aboniere die eigenen Einträge direkt in deiner Kalender-App des Handys oder Computers.
+- Verpasse keine Termine mehr. Abonniere die eigenen Einträge direkt in deiner Kalender-App des Handys oder Computers.
 
 <!-- BILD: bilder/statistik.png — eine Auswertung mit letztem und nächstem Einsatz -->
 
