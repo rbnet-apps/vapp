@@ -192,6 +192,24 @@ Danach im Browser **`https://<domain>/commissioning`** aufrufen und das Betreibe
 **Die ganze Anleitung ist [SELFHOST.md](SELFHOST.md)** — die fünf Schritte, die Sicherungen, was zu
 tun ist, wenn etwas klemmt. Sie liegt auch im entpackten Paket und wird dort gepflegt.
 
+### App aktualisieren
+
+```bash
+./start.sh --update
+```
+
+### Demo Daten anlegen
+
+```bash
+docker compose exec php bin/console app:demo:seed
+```
+
+### Demo Daten entfernen
+
+```bash
+docker compose exec php bin/console app:demo:remove
+```
+
 ## Die Images
 
 | Image                         | Was darin ist                                                                 |
