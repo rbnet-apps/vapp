@@ -66,38 +66,41 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Arbeitsheft/Wachtturm-Import**
 
-- Das ePub wird eingelesen und legt die Zusammenkünfte an. Lieder, Themen und Programmteile werden automatisch erstellt. Es muss nur noch die Planung der Aufgaben erfolgen.
+- Das ePub wird eingelesen und legt die Zusammenkünfte an. Lieder, Themen und Programmteile werden automatisch erstellt.
+- Es muss nur noch die Planung der Aufgaben erfolgen.
 
 **Planungsassistent**
 
-- Der Ordnungsdienstplan kann automatisiert erstellt werden. Die Planung erfolgt basierend auf der Verfügbarkeit der Personen und Häufigkeit der letzten Dienste.
+- Der Ordnungsdienstplan kann automatisiert erstellt werden.
+- Die Planung erfolgt basierend auf der Verfügbarkeit der Personen und Häufigkeit der letzten Dienste.
 
 **Vorsortierte Vorschläge**
 
-- Oben steht, wer lange nicht dran war und für diese Aufgabe freigegeben ist. Die Auswahl kennt den letzten und den nächsten Einsatz jeder Person und zeigt es direkt mit an.
+- Oben steht, wer lange nicht dran war und für diese Aufgabe freigegeben ist.
+- Die Auswahl kennt den letzten und den nächsten Einsatz jeder Person und zeigt es direkt mit an.
 
 ### 🗺️ Gebiete
 
 **Karten erstellen**
 
 - Gebietsgrenzen werden im Kartenwerkzeug gezeichnet. Es wird kein separates Grafikprogramm benötigt. Als Online-Ansicht oder Druck per PDF als Gebietskarte.
-
-**Kartenanbieter nach Wahl**
-
-- OpenStreetMap weltweit oder das Bundesamt für Kartographie und Geodäsie für Deutschland. Jeder kann optional seinen eigenen Standort in der Gebietskarte anzeigen lassen.
+- Wähle zwischen Kartenanbietern wie OpenStreetMap (weltweit) oder das Bundesamt für Kartographie und Geodäsie (Deutschland).
 
 **Gebiet teilen**
 
 - Scanne den QR-Code des Gebiets und teile es temporär mit deiner Gruppe. Einfache und sichere Freigabe für eine gemeinsame Bearbeitung.
+- Jeder kann optional seinen eigenen Standort in der Gebietskarte anzeigen lassen.
 
 **Eigenständige Bearbeitung**
 
-- Eigenes Gebiet sehen, Adressen eintragen oder die Bearbeitung aktualisieren. Optional — es geht auch alles über den Gebietsdiener. Einfach per Parameter einstellen.
+- Eigenes Gebiet anzeigen, Adressen eintragen oder die Bearbeitung aktualisieren.
+- Optional — es geht auch alles über den Gebietsdiener. Einfach per Parameter einstellen.
 
 **Dienstwochen mit allem, was dazugehört**
 
 - Die besondere Woche wird als Ganzes geplant, samt der
-  Ausdrucke, die sie braucht. Planung der verfügbaren Gebiete, benötigte Ausdrucke und eine Übersichtkarte - alles in einer eigenen Ansicht.
+  Ausdrucke, die benötigt werden.
+- Planung der verfügbaren Gebiete, benötigte Ausdrucke und eine Übersichtkarte - alles in einer eigenen Ansicht.
 
 <!-- BILD: bilder/gebietskarte.png — Gebietskarte mit gezeichneter Grenze und Anschriftenliste -->
 
@@ -109,13 +112,14 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Raumbelegung, Reinigung, Instandhaltung**
 
-- Haupt-, Zwischen- und Übergabereinigung, wer welchen
-  Raum wann belegt und digitale Arbeitsblätter für die Instandhaltung.
+- Haupt-, Zwischen- und Übergabereinigung
+- wer welchen Raum wann belegt
+- digitale Arbeitsblätter für die Instandhaltung
+- und vieles mehr
 
 **Geteilter Saal, geteilter Plan**
 
-- Versammlungen, die sich einen Saal teilen, treten einer Versammlungs-Gruppe
-  bei und stellen Reinigungspläne und allgemeine Angaben versammlungsübergreifend bereit.
+- Versammlungen, die sich einen Saal teilen, treten einer Versammlungs-Gruppe bei und stellen Reinigungspläne, Treffpunkte und allgemeine Termine versammlungsübergreifend bereit.
 
 <!-- BILD: bilder/raumplan.png — Raumbelegung oder Reinigungsplan über mehrere Wochen -->
 
@@ -123,7 +127,8 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Eigene Routen und Standorte**
 
-- Schichten und Zeiten werden einmal eingerichtet und laufen danach von selbst weiter; optionales Eintragen von Abgaben.
+- Schichten und Zeiten werden einmal eingerichtet und laufen danach von selbst weiter
+- optional können Abgaben pro Schicht eingetragen werden
 
 **Selbständige Planung**
 
@@ -139,7 +144,8 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Push und E-Mail**
 
-- Beides optional einzeln im eigenen Profil einstellbar. Benachrichtigt wird nur, wen es jeweils betrifft.
+- Beides optional im eigenen Profil einstellbar.
+- Benachrichtigt wird nur, wen es jeweils betrifft.
 
 **Eilmeldungen**
 
@@ -147,7 +153,7 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 **Kalender-Abo**
 
-- Verpasse keine Termine mehr. Abonniere die eigenen Einträge direkt in deiner Kalender-App des Handys oder Computers.
+- Verpasse keine Termine mehr. Abonniere die eigenen Einträge direkt in deiner Kalender-App des Smartphones oder Computers.
 
 <!-- BILD: bilder/statistik.png — eine Auswertung mit letztem und nächstem Einsatz -->
 
@@ -155,16 +161,16 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 ## Die Technik - was gebraucht wird
 
-- Ein **Linux-Rechner mit Docker** und dem Compose-Plugin. x86-64 und arm64 laufen beide.
+- **Linux-Rechner mit Docker** und Compose-Plugin. Sowohl x86-64 als auch arm64 werden unterstützt.
 - Eine eigene **Domain**, die auf diesen Rechner zeigt.
 - Ein **TLS-Zertifikat**. VAPP bringt einen Reverse Proxy mit und holt es selbst bei Let's Encrypt —
   wer schon nginx oder Traefik davor hat, hängt es dahinter.
-- Ein **SMTP-Zugang** zum versenden der Mails aus der VAPP.
+- Ein **SMTP-Zugang** zum Versenden der Mails aus der VAPP.
 - Etwa **zwanzig Minuten** für die Ersteinrichtung.
 
 > **Hinweis:**
 >
-> **Eine IP-Adresse genügt nicht.** Passkeys verlangen einen Domänennamen und eine gesicherte
+> **Eine IP-Adresse genügt nicht.** Passkeys verlangen eine Domain und eine gesicherte
 > Verbindung — der Browser führt die Anmeldung sonst gar nicht erst aus.
 >
 > **Ohne SMTP keine Einladungen.** VAPP läuft, aber es kann niemanden per Mail einladen und kein
@@ -218,9 +224,7 @@ docker compose exec php bin/console app:demo:remove
 | `ghcr.io/rbnet-apps/vapp-web` | nginx davor, mit der gebauten UI                                              |
 
 Beide für **`linux/amd64` und `linux/arm64`** — ein gemieteter x86-Server und ein Raspberry Pi laufen
-gleich gut. `latest` ist die aktuelle Fassung; daneben steht jeder Bau unter seinem Commit, zum
-Festnageln und zum Zurückgehen. MySQL und Redis sind nicht in diesen Images — sie kommen daneben
-hoch, aus der Compose-Datei im Bündel.
+gleich gut. `latest` ist die aktuelle Fassung; daneben hat jeder Build einen eigenen Commit Hash, über den man die Version festsetzen kann. MySQL und Redis sind nicht in diesen Images — sie kommen aus der Compose-Datei im Paket.
 
 ## Womit es gebaut ist
 
@@ -250,9 +254,8 @@ GitHub zeigt „Other". Das ist bei PolyForm normal, und **source-available** is
 
 ## Quelltext
 
-Der Quelltext ist **noch nicht veröffentlicht** — vorerst gehen die Images hinaus, das Repository
-folgt. Bis dahin liegen hier diese Seite, die Lizenz und die Anleitung, und das Bündel im Image ist
-der Weg zu den Betriebsdateien.
+Der Quelltext ist **noch nicht veröffentlicht** — vorerst gibt es nur die Images, das Repository
+folgt. Bis dahin werden hier die Lizenz und die Anleitung bereitgestellt.
 
 ## Ein Sicherheitsproblem gefunden?
 
