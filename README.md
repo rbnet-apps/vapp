@@ -157,8 +157,6 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 <!-- BILD: bilder/statistik.png — eine Auswertung mit letztem und nächstem Einsatz -->
 
-**Alle Funktionen im Einzelnen: [FUNKTIONEN.md](FUNKTIONEN.md).**
-
 ## Die Technik - was gebraucht wird
 
 - **Linux-Rechner mit Docker** und Compose-Plugin. Sowohl x86-64 als auch arm64 werden unterstützt.
@@ -196,7 +194,7 @@ Danach im Browser **`https://<domain>/commissioning`** aufrufen und das Betreibe
 > in dem es ihn erzeugt.
 
 **Die ganze Anleitung ist [SELFHOST.md](SELFHOST.md)** — die fünf Schritte, die Sicherungen, was zu
-tun ist, wenn etwas klemmt. Sie liegt auch im entpackten Paket und wird dort gepflegt.
+tun ist, wenn Probleme auftreten.
 
 ### App aktualisieren
 
