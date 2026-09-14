@@ -8,23 +8,48 @@ einzige Quelle: sie nennt die laufende Versionsnummer und füllt die Seite
 
 ### Neu
 
-- Ein Knopf legt den aktuellen Kartenausschnitt als Gebietsbild fest. Zeichenwerkzeuge sind nicht im Bild.
+- Gebiete und Straßen lassen sich als Tabelle einlesen. Eigene Liste einfügen oder hochladen,
+  Spalten zuordnen, je Zeile lesen was passiert, dann schreiben. Im Gebietsbereich, Schritt 2 der
+  Einrichtung.
+- Auch die Sperrliste lässt sich so einlesen — Gebiet, Straße, Hausnummer, Klingel und zuletzt
+  besucht. Angeboten wird sie am Ende des Straßen-Einlesens. Eine Anschrift, die schon dasteht, wird
+  übersprungen und nicht überschrieben; eine Spalte mit Bewohnernamen wird nicht eingelesen, und die
+  Zuordnungsseite sagt, warum.
+- Ein Knopf legt den aktuellen Kartenausschnitt als Gebietsbild fest.
+- Ein Gebiet lässt sich direkt aus seiner Detailseite für die Dienstwoche reservieren.
 - Die Erstinbetriebnahme holt die Titel der Veröffentlichungen auf Wunsch gleich mit.
 
 ### Geändert
 
-- Kartendienst: die leere Auswahl nennt die Vorgabe (OpenStreetMap, weltweit).
-- Antwort-Adresse der Versammlung: der Hilfetext nennt den Absender, an den ohne Eintrag geantwortet wird.
-- Gebietsbild-Upload nimmt nur noch PNG, JPEG und PDF, höchstens 10 MB.
-- Ein belegter Raum blockiert das Speichern nicht mehr von selbst. Der Saal schaltet es bei Bedarf ein.
+- Das Einlesen zeigt über jeder Seite, der wievielte Schritt gerade läuft und welche noch folgen —
+  Gebiete, Straßen, Adressen.
+- Ein Treffpunkt hat jetzt eine Endzeit. Neue stehen weiter auf einer Viertelstunde.
+- Der Saal wird für den ganzen Treffpunkt gebucht, nicht mehr nur für die ersten 15 Minuten.
+- Listen und Ausdruck zeigen eine Zeitspanne, sobald ein Treffpunkt länger als eine Viertelstunde
+  dauert.
+- Ein laufender Treffpunkt bleibt auf der Startseite stehen, bis er vorbei ist.
+- Treffpunkte und Termine zeigen die geplante Zeitspanne auch in der Detailansicht.
+- Ein belegter Raum blockiert das Speichern nicht mehr von selbst. Der Saal schaltet es bei Bedarf
+  ein.
+- Das Gebietsbild nimmt nur noch PNG, JPEG und PDF, höchstens 10 MB.
+- Die leere Kartenauswahl nennt jetzt die Vorgabe: OpenStreetMap, weltweit.
+- Bei der Antwort-Adresse steht, wohin ohne Eintrag geantwortet wird.
 
 ### Entfernt
 
-- „Als Bild speichern" und „Bild hochladen" auf dem Ebenen-Reiter samt Anleitung.
+- „Als Bild speichern" und „Bild hochladen" auf dem Ebenen-Reiter.
 
 ### Behoben
 
-- Die BKG-Karte blieb leer, wenn eine mitgelieferte Datei im Abbild fehlte.
+- Beim Einlesen einer Personenliste legte die Spalte „Anmeldung" auch bei „nein" ein Konto an.
+- Die Zahlenfelder der Versammlung machten aus einer Fehleingabe stillschweigend eine 0. Sie werden
+  jetzt geprüft und melden zurück, welches Feld nicht stimmt.
+- Die Vorlaufzeit des Trolley-Kalenders sprang auf 0, wenn die Versammlungsseite ohne den Bereich
+  Trolley gespeichert wurde.
+- Ein Gebiet ohne Ort oder PLZ zu speichern hat beides in allen seinen Straßen geleert.
+- Ein Tippfehler in einem Datumsfeld eines Gebiets warf die Seite mit einem Fehler ab.
+- Eine Route mit einer unbekannten Farbe machte die Routenseite unbrauchbar.
+- Die BKG-Karte blieb leer, wenn eine Datei im Abbild fehlte.
 
 ## [9.8.0] — 2026-09-11
 
