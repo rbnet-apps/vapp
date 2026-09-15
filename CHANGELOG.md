@@ -4,6 +4,22 @@ Was sich an vapp geändert hat, je Version, neueste zuoberst. Diese Datei ist di
 einzige Quelle: sie nennt die laufende Versionsnummer und füllt die Seite
 `/changelog` in der Anwendung.
 
+## [9.10.0] — 2026-09-15
+
+### Geändert
+
+- Die Anwendung lädt schneller. Jede Seite holt nur noch, was sie zeigt; die Anmeldeseite braucht
+  fast nichts davon. Das Hauptbündel ist von 156 auf 63 KB geschrumpft.
+- Die Symbole sind sofort da, statt erst nach dem Stylesheet aufzutauchen.
+- Der Kartendruck ist schneller: der QR-Code steckt jetzt im Dokument, und Straßen und
+  Gebietsbilder eines Laufs werden gemeinsam geladen.
+- Die Statistikseiten antworten schneller. Die Wochensicht stellte 108 Einzelfragen an die
+  Datenbank, jetzt eine.
+- Ein Rundbrief mit Push kommt sofort zurück; die Benachrichtigungen gehen im Hintergrund hinaus.
+  Vorher hing das Formular an jedem einzelnen Push-Dienst.
+- Gebietsbilder in Listen werden erst geladen, wenn sie in Sicht kommen.
+- Der Tabellenexport ist bei großen Listen spürbar schneller.
+
 ## [9.9.0] — 2026-09-14
 
 ### Neu
