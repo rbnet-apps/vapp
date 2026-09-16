@@ -4,6 +4,38 @@ Was sich an vapp geändert hat, je Version, neueste zuoberst. Diese Datei ist di
 einzige Quelle: sie nennt die laufende Versionsnummer und füllt die Seite
 `/changelog` in der Anwendung.
 
+## [9.11.1] — 2026-09-15
+
+### Behoben
+
+- Gebietsbilder, die ihre interne Zuordnung verloren hatten, haben sie zurück. Zu sehen war davon
+  nichts — ein neues Bild für eines dieser Gebiete wäre aber an der falschen Stelle gelandet.
+- Steht im Kürzel einer Versammlung ein Schrägstrich, legte der Bildupload dafür einen eigenen
+  Ordner an. Das passiert nicht mehr.
+
+## [9.11.0] — 2026-09-15
+
+### Geändert
+
+- Gebietsbilder und Anhänge laden deutlich schneller. Sie werden beim Hochladen in ein sparsames
+  Format umgerechnet — bei den Gebietsbildern sind das rund drei Viertel weniger Daten. Ein kleines
+  Bild bleibt so groß, wie es ist.
+- Der Ausdruck merkt davon nichts: er nimmt weiter die hochgeladene Datei und bleibt so scharf wie
+  bisher.
+- Bilder in Listen springen beim Laden nicht mehr hin und her — ihr Platz steht von Anfang an fest.
+- Die Listen für Reinigung, Treffpunkt, Wagen und Abwesenheiten kommen schneller. Was sie zeigen,
+  ändert sich nicht.
+- Aus dem Medienordner werden nur noch Bilder und PDF-Dateien ausgeliefert. Was dort über die Jahre
+  sonst noch gelandet ist, ist nicht mehr abrufbar.
+
+## [9.10.1] — 2026-09-15
+
+### Behoben
+
+- Wird die Gebietsdetailseite mit geöffnetem Reiter Karte neu geladen, erscheint die Karte wieder.
+  Vorher blieb der Reiter leer, und die Übersichtskarte auf dem ersten Reiter war danach ein
+  flacher Streifen mit viel zu hoher Zoomstufe.
+
 ## [9.10.0] — 2026-09-15
 
 ### Geändert
