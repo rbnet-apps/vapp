@@ -4,6 +4,99 @@ Was sich an vapp geändert hat, je Version, neueste zuoberst. Diese Datei ist di
 einzige Quelle: sie nennt die laufende Versionsnummer und füllt die Seite
 `/changelog` in der Anwendung.
 
+## [9.12.1] — 2026-09-27
+
+### Geändert
+
+- Planung Woche, Wochenende und Predigtdienst: Die Hilfe über dem Raster ist beim ersten Besuch
+  zugeklappt, das Raster steht damit sofort oben. Aufgeklappt bleibt sie offen, bis der Browser
+  geschlossen wird.
+
+### Behoben
+
+- Notizen-Monitoring: Seite 2 zeigt bei 10 Zeilen wieder die Einträge 11–20 und nicht eine andere
+  Liste. Die Filter nach Versammlung und Status lassen keine Seiten mehr halb leer.
+
+## [9.12.0] — 2026-09-26
+
+### ⚠️ Umstellung nötig
+
+- **Der Predigtdienstbericht ist nach dem Update aus.** Die Versammlungsverwaltung schaltet ihn
+  unter Versammlung → „Allgemein" ein. Gefragt wird ab dem Monat des Einschaltens. Neue
+  Versammlungen starten ohne ihn.
+- **Vorher einrichten** — die Bereichseinrichtung des Sekretärs führt durch:
+  - die Aufgabe **Sekretär** (ein Ältester),
+  - je Gruppe einen **Gruppenaufseher**, mindestens Dienstamtgehilfe und in seiner Gruppe
+    eingetragen,
+  - die **Pionierliste**. Ohne sie gilt jeder als Verkündiger.
+- Soll sonst jemand Berichte sehen: im Rechteraster „Berichte der eigenen Gruppe" oder „Berichte
+  der Versammlung" setzen.
+- **Für Betreiber:** `NOTES_ENCRYPTION_KEY` muss **vor** dem Update in `.env.local` stehen
+  (`setup.sh` legt ihn an). Ohne ihn lässt sich kein Bericht speichern oder lesen.
+
+### Neu
+
+- **Predigtdienstbericht in der App**, jeden Monat, sobald eure Versammlung ihn eingeschaltet hat.
+  Ein Monat ohne Tätigkeit ist auch ein Bericht. Den Haken „im Predigtdienst tätig" setzt du
+  selbst.
+- Führst du das Notizbuch, holt ein Knopf dessen Zahlen in den Bericht.
+- Fehlt dein Bericht, erinnert die App am 3. und am 10. Monate vor deinem Beitritt zählen nicht.
+- **Gruppenaufseher und Gehilfe** sehen, wer aus der Gruppe noch fehlt, auch als Zahl auf der
+  Kachel. Sie erinnern mit einem Klick, tragen Meldungen auf Papier oder per Telefon nach und
+  laden die Gruppe als Excel.
+- **Der Sekretär** sieht die ganze Versammlung: offene Berichte, Gruppen ohne Aufseher und die
+  Zahlen für jw.org in der Reihenfolge des Formulars. Er bestätigt die Eingabe und erfährt von
+  späteren Änderungen. Am 18. erinnert ihn die App.
+- Ein versehentlich eingetragener Bericht lässt sich löschen.
+- **Gruppen:** je Gruppe ein Aufseher und ein Gehilfe, nie dieselbe Person. „Gruppe bearbeiten"
+  setzt Mitglieder, Aufseher und Gehilfe. Wer die Gruppe verlässt, verliert die Aufgabe. Der
+  Gehilfe sieht die Berichte seiner Gruppe ohne eigenen Schalter und gibt Gebiete aus; die
+  Gebietsverwaltung bleibt beim Gebietsdiener.
+- **Gruppenliste:** nennt je Gruppe Aufseher, Gehilfe und Mitgliederzahl. Ein Klick auf die Zahl
+  öffnet die Personenliste dieser Gruppe.
+- **Einrichtung auf einen Blick:** Vor jedem Schritt steht ein Zeichen: Haken = erledigt, leeres
+  Kästchen = offen, Pfeil = die App kann es nicht prüfen. „Ort & Räume" ist erledigt, sobald ein
+  Raum angelegt ist. Der Datenschutz-Kontakt trägt „Pflicht", solange er fehlt.
+- **Kontoeinrichtung, Schritt „Ansicht":** Die Kacheln wählst und sortierst du wie im Profil. Das
+  Profilbild ist klein, der Knopf zum Abschließen bleibt unten sichtbar, auch über der Werkzeugleiste
+  am Handy.
+- **Profil, Ansicht:** Die Kacheln füllen auf dem Handy die Breite und bleiben quadratisch.
+- **Datenschutz erklärt:** unter Versammlung → „Kommunikation & Datenschutz". Wer wofür zuständig
+  ist, was bei einer Anfrage zu tun ist und wie ihr den AVV per Mail annehmt. AVV und Vorlage für
+  euer Verzeichnis sind dort lesbar.
+- **Für Betreiber: Datenschutz-Ablauf** unter Admin: deine Aufgaben, die der Verwalter und die
+  Schritte bei einer Panne. Dazu der AVV zum Verschicken und die Vorlage für dein Verzeichnis.
+- **Für unterwegs laden:** Ein Block unten auf der Startseite lädt deine Seiten aufs Gerät, Pläne
+  samt nächster Periode. Er zeigt, wann du zuletzt geladen hast und ob Seiten fehlen. Die Seiten
+  bleiben sieben Tage.
+- **Offline:** Seiten aus dem Speicher des Geräts tragen oben „Offline — geladen am …".
+- **Notizbuch:** Die letzten zwölf Monate sind offen, ältere klappst du auf. Unten löschst du das
+  ganze Notizbuch; abgegebene Berichte bleiben.
+- **Zeilen je Seite:** unter jeder Liste 5, 10 oder 20. Gilt auf diesem Gerät für alle Listen.
+  Ohne Wahl sind es jetzt 10.
+- **Neuer Seitenfuß** auf jeder Seite: Sprache und Farbthema mit einem Klick, dazu „Teilen" zum
+  Weiterempfehlen.
+- **Feedback** ist ein eigener Block unten auf der Startseite.
+
+### Datenschutz
+
+- **Berichte werden nicht aufbewahrt:** Stunden, Studien und Bemerkung sind nach drei Monaten
+  gelöscht, der Rest nach acht. Wer sie länger braucht, lädt vorher die Excel.
+- Zahlen und Bemerkung liegen verschlüsselt in der Datenbank.
+- Die App bewertet niemanden: kein „regelmäßig" oder „untätig", nur sechs Kästchen für die letzten
+  Monate.
+- Die Datenschutzerklärung nennt jetzt den Bericht. Beim nächsten Anmelden bittet die App erneut
+  um Kenntnisnahme.
+
+### Behoben
+
+- Eilmeldungen: Der Kopf bricht auf dem Handy nicht mehr um.
+- Gebietsfreigabe: Die Karte hat wieder den Standort-Knopf. Ohne Anmeldung merkt sich das Gerät
+  deine Wahl.
+- Markdown-Felder zeigen wieder ihren Hinweistext statt `text.markdown_placeholder`.
+- Anwesende: Die Sprachgruppe zählt mit, eine rein digitale Zusammenkunft zählt im Durchschnitt.
+  Die Tabelle zeigt nur die Zähler, die eure Versammlung führt.
+
 ## [9.11.1] — 2026-09-15
 
 ### Behoben
