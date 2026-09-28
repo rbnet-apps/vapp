@@ -6,7 +6,7 @@
 
 **Alles, was eine Versammlung braucht**
 
-Zusammenkünfte, Gebiete und Trolley — geplant in einer Anwendung, die auf eurem eigenen Server liegt.
+Zusammenkünfte, Gebiete, Trolley und Berichte — geplant in einer Anwendung, die auf eurem eigenen Server liegt.
 
 ![Lizenz](https://img.shields.io/badge/Lizenz-PolyForm_Noncommercial_1.0.0-0b7285)
 ![Plattform](https://img.shields.io/badge/Plattform-amd64%20%C2%B7%20arm64-495057)
@@ -15,13 +15,27 @@ Zusammenkünfte, Gebiete und Trolley — geplant in einer Anwendung, die auf eur
 
 </div>
 
+## Auf einen Blick
+
+**VAPP ist die zentrale Anlaufstelle einer Versammlung.** Wer plant, plant hier — Zusammenkünfte,
+Gebiete, Trolley, Saal und Berichte. Wer eingeplant ist, sieht hier, was ansteht — auf dem Handy,
+auch ohne Netz. Statt Zetteln, Aushängen und verteilten Tabellen gibt es einen Stand, digital und
+immer aktuell. Und er gehört der Versammlung: VAPP läuft auf eurem eigenen Server und nirgendwo sonst.
+
+- 🗓️ **Zusammenkünfte in Minuten** — Arbeitsheft und Wachtturm als ePub einlesen, Aufgaben mit
+  vorsortierten Vorschlägen besetzen.
+- 🗺️ **Gebiete digital** — Grenzen auf der Karte zeichnen, per QR-Code ausgeben und teilen, Karte
+  als PDF.
+- 🛒 **Trolley zum Selberbuchen** — Routen, Schichten und Statistik, ohne Listen zu führen.
+- 📊 **Predigtdienstbericht in der App** — abgeben, erinnern, nachtragen; der Sekretär hat die
+  Zahlen für jw.org fertig. Verschlüsselt und nach kurzer Zeit gelöscht.
+- 📶 **Unterwegs auch offline** — Plan, eigene Gebiete samt Karte, Trolley und Kalender liegen auf
+  dem Gerät, bevor der Empfang weg ist.
+- 🔔 **Nichts verpassen** — Push, E-Mail, Eilmeldungen und Kalender-Abo.
+- 🔐 **Eure Daten, euer Server** — Anmeldung per Passkey, Rechte nach Vorrechten und Aufgaben, kein
+  Dienst dazwischen.
+
 <!-- BILD: bilder/zusammenkuenfte.png — eine geplante Woche im Zeitplan, Aufgaben besetzt -->
-
-VAPP ist die zentrale Anlaufstelle einer Versammlung:
-Gebiete, Versammlungspläne, Trolley-Planung, PD Berichte und
-Sprachgruppen.
-
-Statt Zetteln und verteilten Tabellen — alles an einer Stelle; digital und immer aktuell. Und es gehört der Versammlung, weil es auf einem eigenen Server läuft und nirgendwo sonst.
 
 > _English: VAPP is a self-hosted application for planning a congregation's meetings, territories
 > and public-witnessing cart. The interface ships in German, English, Greek and Russian; this page,
@@ -140,6 +154,42 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 <!-- ![Der Trolley-Kalender mit Bereichswechsler und Bereichsmenü](https://raw.githubusercontent.com/rbnet-apps/vapp/main/media/trolley-calendar.png) -->
 
+### 📊 Berichte
+
+**Predigtdienstbericht jeden Monat**
+
+- Die Versammlung schaltet den Bericht ein — ab diesem Monat wird gefragt. Ein Monat ohne Tätigkeit
+  ist auch ein Bericht.
+- Selbst abgeben oder abgeben lassen: Ist die Selbstabgabe an, trägt jeder selbst ein. Sonst tragen
+  Gruppenaufseher und Sekretär ein.
+- Wer das Notizbuch führt, holt dessen Zahlen mit einem Knopf in den Bericht.
+- Fehlt ein Bericht, erinnert die App am 3. und am 10. des Monats.
+
+**Gruppenaufseher und Gehilfe**
+
+- Sehen, wer aus der Gruppe noch fehlt — auch als Zahl auf der Kachel.
+- Erinnern mit einem Klick, tragen Meldungen auf Papier oder per Telefon im Dialog nach und laden
+  die Gruppe als Excel.
+
+**Sekretär**
+
+- Sieht die ganze Versammlung nach Gruppen: offene Berichte, Gruppen ohne Aufseher, Personen ohne
+  Gruppe.
+- Bekommt die Zahlen für jw.org in der Reihenfolge des Formulars, bestätigt die Eingabe und erfährt
+  von späteren Änderungen.
+- Eine geführte Einrichtung zeigt Schritt für Schritt, was fehlt: Sekretär, Gruppenaufseher,
+  Pionierliste, Selbstabgabe.
+
+**Datenschutz eingebaut**
+
+- Zahlen und Bemerkung liegen verschlüsselt in der Datenbank.
+- Nichts wird aufbewahrt: Stunden, Studien und Bemerkung sind nach drei Monaten gelöscht, der Rest
+  nach acht.
+- Die App bewertet niemanden — kein „regelmäßig" oder „untätig", nur die letzten sechs Monate als
+  Kästchen.
+
+<!-- BILD: bilder/bericht.png — Übersicht des Sekretärs mit Gruppen und offenen Berichten -->
+
 ### 📣 Kommunikation und Überblick
 
 **Push und E-Mail**
@@ -156,6 +206,31 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 - Verpasse keine Termine mehr. Abonniere die eigenen Einträge direkt in deiner Kalender-App des Smartphones oder Computers.
 
 <!-- BILD: bilder/statistik.png — eine Auswertung mit letztem und nächstem Einsatz -->
+
+### 📶 Unterwegs und offline
+
+Im Gebiet, im Keller, auf dem Land — kein Empfang ist kein Problem.
+
+**Als App installiert**
+
+- VAPP kommt als WebApp auf den Home-Bildschirm. Kein App-Store, kein Konto bei irgendwem.
+
+**Stammseiten laden von selbst**
+
+- Beim Öffnen der Startseite kommen Startseite, eigene Gebiete, aktueller Plan, Trolley-Plan und
+  Kalender aufs Gerät — höchstens alle vier Stunden, auf Wunsch nur im WLAN.
+- Abschalten geht im Profil unter „Geräte".
+
+**Für unterwegs laden**
+
+- Ein Knopf lädt alles auf einmal: Pläne samt nächster Periode, Termine für diesen und den nächsten
+  Monat, die eigenen Gebiete mit Bild, QR-Code und Karte.
+- Die Gebietskarte zeigt offline die zuletzt gesehenen Ausschnitte.
+
+**Immer klar, was aktuell ist**
+
+- Jede Seite aus dem Speicher trägt oben „Offline — geladen am …". Die Startseite zeigt, wann
+  zuletzt geladen wurde und ob Seiten fehlen.
 
 ## Die Technik - was gebraucht wird
 
