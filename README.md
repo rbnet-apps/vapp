@@ -17,14 +17,14 @@ Zusammenkünfte, Gebiete, Trolley und Berichte — geplant in einer Anwendung, d
 
 ## Auf einen Blick
 
-**VAPP ist die zentrale Anlaufstelle einer Versammlung.** Wer plant, plant hier — Zusammenkünfte,
+**VAPP ist die zentrale Anlaufstelle einer Versammlung.** Perfekt für Planer — Zusammenkünfte,
 Gebiete, Trolley, Saal und Berichte. Wer eingeplant ist, sieht hier, was ansteht — auf dem Handy,
 auch ohne Netz. Statt Zetteln, Aushängen und verteilten Tabellen gibt es einen Stand, digital und
 immer aktuell. Und er gehört der Versammlung: VAPP läuft auf eurem eigenen Server und nirgendwo sonst.
 
 - 🗓️ **Zusammenkünfte in Minuten** — Arbeitsheft und Wachtturm als ePub einlesen, Aufgaben mit
-  vorsortierten Vorschlägen besetzen.
-- 🗺️ **Gebiete digital** — Grenzen auf der Karte zeichnen, per QR-Code ausgeben und teilen, Karte
+  vorsortierten intelligenten Vorschlägen besetzen.
+- 🗺️ **Gebiete digital** — Grenzen auf der Karte zeichnen, Personen zuweisen oder per QR-Code teilen, Karte
   als PDF.
 - 🛒 **Trolley zum Selberbuchen** — Routen, Schichten und Statistik, ohne Listen zu führen.
 - 📊 **Predigtdienstbericht in der App** — abgeben, erinnern, nachtragen; der Sekretär hat die
