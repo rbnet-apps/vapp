@@ -4,6 +4,93 @@ Was sich an vapp geändert hat, je Version, neueste zuoberst. Diese Datei ist di
 einzige Quelle: sie nennt die laufende Versionsnummer und füllt die Seite
 `/changelog` in der Anwendung.
 
+## [9.15.0] — 2026-09-28
+
+### ⚠️ Umstellung nötig
+
+- **Selbstabgabe ist ein eigener Schalter und steht aus.** Dann tragen Gruppenaufseher und Sekretär
+  die Berichte ein. Soll jeder selbst abgeben: Versammlung → „Allgemein" einschalten.
+
+### Neu
+
+- **Bericht im Dialog eintragen** – direkt aus der Liste, ohne sie zu verlassen.
+- **Die Liste des Sekretärs zeigt die Personen in Gruppen.** Ein Klick zeigt, wer in keiner Gruppe
+  ist.
+
+### Geändert
+
+- Die Bereichseinrichtung des Berichts macht jetzt die Versammlungsverwaltung. Die Zahlen sieht
+  weiter nur, wer „Berichte der Versammlung" hat.
+- Die Einrichtung des Berichts zeigt in einem vierten Schritt, ob die Selbstabgabe an ist.
+- Eine neue Versammlung sammelt den Bericht ab Werk. Vorhandene behalten ihre Einstellung.
+- Der Menüpunkt heißt jetzt **„Berichte"**.
+- **Stammseiten laden von selbst** aufs Gerät, höchstens alle vier Stunden. Abschalten: Profil →
+  „Geräte".
+
+### Behoben
+
+- Scrollen über einem Zahlenfeld ändert die Zahl nicht mehr.
+- Bericht: „Studien" zeigt einen Strich statt 0, solange nichts eingetragen ist.
+- Teilen im Notizbuch klappt auch auf dem iPhone.
+- Nach einem Versammlungswechsel fragt die neue Versammlung nicht nach Monaten davor.
+- Einrichtung des Berichts: Links zu den Rechten und Menü-Hervorhebung stimmen.
+- Telefon: Der letzte Eintrag der Seitenleiste liegt nicht mehr unter den Knöpfen.
+
+## [9.14.1] — 2026-09-28
+
+### Behoben
+
+- Gebiete: „Zurück zur Liste" und „Kacheln" gehen auch offline.
+- Gruppen importieren: Eine doppelte Sortierung wird nicht übernommen, die Vorschau sagt warum.
+- „Für unterwegs laden" und automatisches Laden laufen nicht mehr gleichzeitig.
+- Sortierbare Listen und PDF-Listen brechen bei ungültiger Sortierung nicht mehr ab.
+
+## [9.14.0] — 2026-09-28
+
+### Neu
+
+- **Stammseiten automatisch laden**: Im Profil unter „Geräte" kannst du einschalten, dass Startseite,
+  deine Gebiete, der aktuelle Plan, der Trolley-Plan und deine Kalender beim Öffnen der Startseite
+  von selbst auf das Gerät kommen – höchstens alle 4 Stunden, auf Wunsch nur im WLAN.
+- Der Knopf „Für unterwegs laden" steht jetzt in der Seitenleiste der Startseite.
+- Gruppen: Die Zahl einer Gruppe heißt jetzt **Sortierung** und sortiert als Zahl – Gruppe 10 steht
+  nach Gruppe 2. Eine Zahl über 0 kann nur eine Gruppe der Versammlung haben. Eine Gruppe
+  ohne Zahl (0) steht vorne und erscheint jetzt auch in den Auswahlen von Reinigung und Predigtdienst.
+- **Trolley-Ausrüstung** zeigt jede Route als Kachel mit ihrem Ausrüstungsbild – dem Foto der aktuellen
+  Bestückung – und dem Datum „Bestückung vom …". Wer den Trolley verwaltet, ändert das Bild dort über den
+  Stift, nicht mehr in „Route bearbeiten". Ein Bild, das bisher die Karte der Route zeigte, bitte durch ein
+  Foto der Bestückung ersetzen.
+- Trolley, Route bearbeiten: Formular links, Karte rechts und beim Scrollen sichtbar; die Wochentage
+  stehen wieder ordentlich in zwei Spalten.
+
+### Behoben
+
+- Gebietskarte: Die Karte (BKG und OpenStreetMap) bleibt nicht mehr grau.
+- Offline: „Meine Gebiete" geht auch über die Startseite, nicht nur über die Seitenleiste.
+- Gebietskarte am iPhone: Der Standort startet wieder auf jeder Seite von selbst, auch nach dem
+  Neuladen. Die App auf dem Home-Bildschirm behält die Erlaubnis nicht, deshalb fragt iOS dabei
+  jedes Mal nach.
+
+## [9.13.0] — 2026-09-27
+
+### Neu
+
+- **Für unterwegs laden** lädt jetzt mehr, und alles davon geht auch ohne Internet:
+  - die Termine im Kalender, für diesen und den nächsten Monat,
+  - deine Gebiete (zugeteilt oder geteilt) mit Bild, QR-Code und Karte.
+- Die Karte eines Gebiets zeigt offline die zuletzt gesehenen Ausschnitte.
+
+### Behoben
+
+- Offline: Seite 1 eines Plans geht auch nach dem Blättern auf Seite 2 und zurück.
+- Offline: Die Leiste „Offline — geladen am …" verdeckt den Kopf der Seite nicht mehr.
+- Datenschutzerklärung: Auf dem Handy ist die Schrift wieder normal groß.
+- Auf dem Handy ist der Text in Auswahlfeldern so groß wie in Eingabefeldern.
+- Gebietskarte am iPhone: Die Frage nach dem Standort kommt nicht mehr bei jedem Neuladen. Wie du
+  den Standort dauerhaft erlaubst, steht in der Hilfe.
+- Planung, Verkündiger verwalten: Nach dem Speichern bleibt dein Filter stehen.
+- Notizen-Monitoring: Suchen und Zurücksetzen bleiben auf der Notizenseite.
+
 ## [9.12.1] — 2026-09-27
 
 ### Geändert
