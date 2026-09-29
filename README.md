@@ -37,10 +37,14 @@ immer aktuell. Und er gehört der Versammlung: VAPP läuft auf eurem eigenen Ser
 
 <!-- BILD: bilder/zusammenkuenfte.png — eine geplante Woche im Zeitplan, Aufgaben besetzt -->
 
-> _English: VAPP is a self-hosted application for planning a congregation's meetings, territories
-> and public-witnessing cart. The interface ships in German, English, Greek and Russian; this page,
-> the setup guide and the planning documents are German. Images:
-> `ghcr.io/rbnet-apps/vapp-app` and `…/vapp-web`, for `linux/amd64` and `linux/arm64`._
+> **English:** VAPP is a self-hosted **congregation management app for Jehovah's Witnesses** —
+> Life and Ministry meeting scheduler with EPUB workbook import, weekend meeting and attendant
+> schedules, territory maps and assignments, public witnessing cart scheduling, monthly field
+> service reports, cleaning and hall schedules. Installable PWA with offline mode, push
+> notifications, calendar feeds and passkey login. The interface ships in German, English, Greek
+> and Russian; this page and the setup guide are German. Docker images
+> `ghcr.io/rbnet-apps/vapp-app` and `…/vapp-web` for `linux/amd64` and `linux/arm64`. Not an
+> official tool of the organization.
 
 ## In zwanzig Minuten ist die Versammlung erstellt
 
@@ -56,6 +60,13 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 - **Alle anderen**, die schauen, wann sie eingeplant sind, ihr Gebiet bearbeiten wollen oder Trolleydienst eintragen — als WebApp installiert, mit Benachrichtigung und Kalender-Abo
 
 **Wofür nicht:** VAPP ist **kein offizielles Werkzeug der Organisation** und ersetzt keins.
+
+## Alternativen
+
+Wer schon eine Versammlungs-App wie **NW Scheduler / NW Publisher**, **Hourglass**, **TheocBase**,
+**Organized** oder **Meeting Schedule Assistant** kennt: VAPP deckt dieselben Aufgaben ab —
+Zusammenkünfte, Gebiete, Trolley, Berichte — in **einer** Anwendung. Der Unterschied: sie läuft
+**auf eurem eigenen Server**, nicht auf einem einzelnen PC und nicht bei einem fremden Anbieter.
 
 ## Was die VAPP kann
 
@@ -342,6 +353,7 @@ Einzelheiten in [SECURITY.md](SECURITY.md).
 <div align="center">
 
 VAPP wird von Brüdern in ihrer Freizeit entwickelt.
-Es ist kein offizielles Werkzeug der Organisation.
+Es ist kein offizielles Werkzeug der Organisation und steht in keiner Verbindung zu Jehovas Zeugen
+oder der Watch Tower Bible and Tract Society. Alle genannten Produktnamen gehören ihren Inhabern.
 
 </div>
