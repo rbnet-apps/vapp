@@ -4,6 +4,965 @@ Was sich an vapp geändert hat, je Version, neueste zuoberst. Diese Datei ist di
 einzige Quelle: sie nennt die laufende Versionsnummer und füllt die Seite
 `/changelog` in der Anwendung.
 
+## [9.57.0] — 2026-11-18
+
+### Geändert
+
+- **Datenschutz:** Der AVV erfüllt jetzt alle Pflichten aus Art. 28 DSGVO, und die Datenschutzerklärung nennt richtig, wer den Kartendienst wählt und wohin Push-Nachrichten gehen. Die Versammlung nimmt den AVV in der Fassung vom 2026-11-18 neu an.
+- **Blatt für alle ab 1. Dezember:** Ab dann gibt es nur noch Blatt, auch für alle, die Kacheln gewählt haben; bis dahin zeigt die Startseite in Kacheln den Tag an.
+- **Wochenend-Planung:** „Neue Einträge“ liest dort den Wachtturm für alle ein, die Pläne anlegen dürfen, und eine leere Liste zeigt dorthin statt auf „Verwalten“.
+
+## [9.56.0] — 2026-11-17
+
+### Geändert
+
+- **Datenschutzerklärung:** Einfacher geschrieben, mit den Namen aus der App, und sie nennt jetzt, auf welcher Rechtsgrundlage die App arbeitet und wer deine Handynummer sieht. Du wirst einmal gebeten, sie neu zu lesen.
+- **Kürzere Löschfristen:** Pläne, Reinigung und Instandhaltung bleiben 2 Jahre, Vorträge 4 Jahre, der Verlauf der Gebiete 4 statt 10 Jahre (Namen weiter 2), das Aktivitätsprotokoll 1 Jahr. Die Versammlung nimmt dafür den AVV in der Fassung vom 2026-11-17 neu an.
+- **Planung:** Die Hilfe erklärt, warum eine eingeplante Person rot markiert ist.
+- **Kalender:** Jede zweite Kalenderwoche hat ihre Nummer in Blau, statt dass die ganze Woche grau hinterlegt ist. Das gilt jetzt in allen Kalendern.
+- **Neue Konten** beginnen in Blatt und haben keinen Weg zurück zu Kacheln.
+
+## [9.55.0] — 2026-11-17
+
+### Neu
+
+- **Aufgabenübersicht zum Aushängen:** Unter „Aufgaben verteilen“ lädst du ein PDF auf einer Seite: wer welche Aufgabe hat und wofür man ihn anspricht.
+
+### Geändert
+
+- **Über die App:** Die Erklärungen zu allen Bereichen sind kürzer und leichter zu lesen, und veraltete Angaben stimmen wieder.
+- **So funktioniert:** Die Liste der Aufgaben nennt keine Sonderrollen für Gäste und Sammelkonten mehr, etwa „Gebietsbearbeitung“.
+
+## [9.54.0] — 2026-11-16
+
+### Neu
+
+- **Material:** Einen Eintrag, den noch kein Wechsel und kein Literaturangebot hatte, kannst du löschen. „Neu“ mit einem Code, den es schon gibt, öffnet den vorhandenen Eintrag.
+
+### Geändert
+
+- **Raumplan:** In der Monatsansicht liegt jede zweite Woche auf einem leichten Grau.
+- **Datenschutzerklärung:** „Zur Kenntnis genommen“ bleibt beim Lesen unten erreichbar; der Hinweis steht direkt über dem Text.
+- **Wechsel:** Ein laufender Wechsel bleibt änderbar: „Zurück am“, „Wer wechselt?“ und Notiz, bis er zurück ist.
+- **Wechsel:** Beginnt an einer Route ein neuer Wechsel, verschwindet das „zurückwechseln“ des älteren dort.
+- **Wechsel:** „Wer wechselt?“ zeigt „(Abwesend)“ bei jedem, der am Tag oder an „Zurück am“ weg ist.
+- **Literaturangebot:** „Neues Angebot“ für einen Monat, der schon eins hat, öffnet das vorhandene, statt es zu ersetzen.
+- **Ordnungsdienst:** Menü und Planungsumschalter führen nur noch den dorthin, der ihn plant.
+- **Treffpunkte:** Wer den Versammlungsplan verwaltet, findet das PDF auch im Kalender der Treffpunkte.
+- **Hilfe:** Die Texte zu Gebieten, Instandhaltung und Tickets beschreiben den aktuellen Stand.
+
+### Behoben
+
+- **Audit-Log:** Den Eintrag im Menü sieht nur, wer das Protokoll auch öffnen darf.
+- **Datenschutzerklärung:** Der erste Kasten klebt nicht mehr oben an der Leiste.
+- **Telefon und Mail:** Ein geleertes Feld löscht die Angabe; eine Mail, die eine andere Person hat, wird am Feld abgelehnt.
+- **Passwort zurücksetzen:** Ein zu kurzes Passwort oder eine falsche Wiederholung zeigt den Fehler.
+- **Push:** Schaltet eine zweite Person im selben Browser Push ein, bekommt sie ihre Pushes, nicht mehr die erste Person.
+- **Trolley-Schicht:** Eine Schicht mit Abgaben in zwei Sprachen lässt sich löschen; auch die dritte Person einer Schicht kann sie bearbeiten.
+- **Material einfügen:** Auf dem iPad und am Rechner steht nach „Prüfen“ wieder die Liste der erkannten Codes.
+- **Literatur:** Name und Bild von jw.org kommen beim nächsten Speichern, wenn der Abruf vorher nicht geklappt hat; eine ausgemusterte Schrift bleibt im Angebot, das sie schon hat.
+- **Vortragsplan:** Ein mit „Sichtbar“ ausgeblendetes Wochenende fehlt auch auf „Eingehende Redner“, im PDF und am Plakat im Aushang.
+- **Freigaben:** „Erstellt am“ und „Zuletzt abgerufen“ zeigen die Minute statt des Monats.
+- **„Alle archivieren“** setzt die Mitteilungen auch auf gelesen.
+- **Einlesen:** „Zurück“ behält die eingefügte Liste; ein doppelter Name wird schon in der Vorschau übersprungen.
+
+## [9.53.0] — 2026-11-16
+
+### Geändert
+
+- **Trolley-Meldungen:** Eine Meldung an einem Standort lesen und bearbeiten nur die Trolley-Helfer und Koordinatoren der Versammlungen, die den Standort sehen; wer sie gemeldet hat, sieht sie weiter.
+- **Datenschutzerklärung:** Eine neue Fassung nennt das und dazu Pionierdienst und Namen ohne Person in der Gruppeneinteilung; sie wird beim nächsten Anmelden allen vorgelegt.
+
+### Behoben
+
+- **Leihe:** Der Freigabe-Code übernimmt kein Gebiet mehr, das gerade verliehen ist; erst die Rückgabe gibt den Weg wieder frei.
+- **Raumplan:** Bei einem Termin „nur Älteste“ steht für alle anderen nur „belegt“, ohne Titel.
+- **Ort:** Den Ort einer Versammlung ändert nur noch der Betreiber.
+
+## [9.52.0] — 2026-11-16
+
+### Neu
+
+- **Literaturangebot:** Der Literaturdiener legt unter Predigtdienst → „Literatur“ je Monat fest, welche Schriften die Versammlung anbietet; es hängt als Plakat im Aushang und steht beim „Neuen Wechsel“ zuerst in der Auswahl eines Fachs.
+- **Predigtdienstgruppen – Aushang von Hand:** Im Formular einer Gruppe legst du am Auge eines Mitglieds fest, ob es immer im Aushang steht, nie oder wie die Berichte es ergeben.
+- **Versammlungsbericht:** Der Sekretär findet eine Person über ihren Namen, und die Liste kommt seitenweise.
+- **Schon erinnert:** Neben der Glocke steht leise der Tag der letzten Erinnerung.
+
+### Geändert
+
+- **Dunkles Thema am Computer:** Die grauen Flächen sind eine Stufe dunkler; am Handy bleibt alles, wie es ist.
+- **Sekretär:** „Bericht auf jw.org eingeben“ nennt ab dem 1. die Gruppen ohne Aufseher und meldet eingegebene Monate, denen nachträglich Stunden fehlen.
+- **Einrichten:** „Verkündiger geben selbst ab“ erscheint sofort mit dem Berichte-Schalter.
+- **Aushang:** Die Reihen der Plakate rasten beim Wischen wieder am Anfang eines Plakats ein.
+- **Sicherheit:** Einträge anderer Versammlungen lassen sich nicht mehr per Adresse ändern, löschen oder lesen; Rechte innerhalb der Versammlung enger nach Rolle.
+- **ePub-Import:** Legt der Import neue Zusammenkünfte in einen belegten Raum, warnt er davor – wie das Formular.
+- **Planmarken:** Wer Aufgaben, Schule oder Dienst plant, ändert nur noch die Marken von Personen der eigenen Versammlung.
+
+### Behoben
+
+- **Aushang, PDF:** Das PDF eines Aushangs und eines Termins öffnet nur noch, wer den Aushang sehen darf.
+- **Gebiet, „Nicht besuchen“:** Eine Adresse lässt sich wieder löschen.
+- **Programm bearbeiten, Handy:** Die drei Lieder stehen nebeneinander in einer Zeile.
+- **Laufender Monat:** In den Berichtslisten steht „läuft noch“ statt „Offen“, ohne Glocke.
+- **Gebiete, Sammelbearbeitung:** Ein Gebiet ohne Datum bekommt beim Speichern kein heutiges Datum mehr.
+
+## [9.51.0] — 2026-11-15
+
+### Geändert
+
+- **Vortragsplanung:** Wer Vorträge plant, findet unter „Verwalten“ die Planung des Wochenendes, bearbeitet dort die Einträge und liest den Wachtturm als ePub ein.
+- **Wiederkehrende Termine:** Ein Termin, der sich wiederholt, steht im Kalender „Termine“ an jedem Tag. Mit Raum braucht er ein Ende und bucht den Raum dann an jedem Tag im Raumplan.
+- **Termine:** Die Termine der Versammlung heißen überall „Termine“ statt „Veranstaltungen“ – im Menü, im Seitentitel, im Tab und in den Links.
+- **Antwortfeld:** Das Textfeld im Gespräch hat die Füllung eines Formularfelds, mit einer Linie über der Leiste.
+- **Notizen:** Die Dialoge sehen im Dunkeln aus wie alle anderen.
+- **App empfehlen:** Der Knopf steht jetzt im Kasten „Projekt“ der Seite „Über die App“ statt im Fuß.
+- **Über die App:** Die Hilfe heißt so und führt mit einem Satz je Thema zur Seite; Standort, Installation, Anmeldung, Benachrichtigungen und Kalender-Abo haben je eine eigene Seite.
+- **Neuer Wechsel am Trolley:** Der Dialog zeigt den Trolley als Zeichnung, bietet die zuletzt gehängten Bestückungen als Vorlage an und listet Plakate und Schriften mit Bild und Code.
+- **Dunkelmodus:** Die grauen Flächen sind wieder so hell wie die von Apple.
+- **Knöpfe auf farbigen Flächen:** „Freigabe" und „Aktionen" in der Gebietsansicht behalten die Farbe ihres Kastens, im Dunkeln dunkler, im Hellen heller.
+- **Straßen:** Jede Straße ist eine eigene graue Karte mit „Speichern" und „Löschen", zwei nebeneinander. Eine neue Straße legst du über „Straße hinzufügen" in einem Dialog an.
+
+## [9.50.0] — 2026-11-14
+
+### Geändert
+
+- **Dunkelmodus:** Die grauen Flächen sind eine Stufe dunkler.
+- **Heller Modus:** Zweite Knöpfe heben sich auch auf grauen Flächen ab.
+
+## [9.49.0] — 2026-11-14
+
+### Geändert
+
+- **Dunkelmodus:** Felder, Knöpfe und farbige Flächen heben sich auf jedem Untergrund ab, auch im Dialog.
+
+## [9.48.0] — 2026-11-14
+
+### Neu
+
+- **Dienstwoche wie der Plan:** Das Programm der Dienstwoche sieht auf der Seite und im Heft aus wie der Versammlungsplan.
+
+### Geändert
+
+- **Menü-Markierung:** Die aktuelle Seite im Menü trägt einen Strich und einen fetten Namen.
+- **Dunkelmodus am Handy:** Die Seite ist schwarz, Menüs, Suche und Dialoge stehen in einem dunklen Grau darüber.
+- **Bereichsleiste am Handy:** Nur die Pille des aktuellen Bereichs ist eingefärbt, der Name darunter steht in Schriftfarbe.
+
+### Behoben
+
+- **Dienstwoche:** Unter der Woche bekommen VBS-Leiter und Leser keine Aufgabe mehr angezeigt, die der Plan nicht zeigt.
+
+## [9.47.0] — 2026-11-13
+
+### Neu
+
+- **Ganzer Tag bei „Meine":** Im Trolley-Kalender klappt unter den eigenen Schichten jeder Tag auf und zeigt alle Routen mit freien Plätzen.
+
+### Geändert
+
+- **Dienstwochen erklärt:** Die Seite *Dienstwochen* sagt jetzt oben, was ein Eintrag bewirkt.
+
+## [9.46.0] — 2026-11-12
+
+### Neu
+
+- **Ausprobieren ohne Konto:** Auf der Testanlage öffnet man vapp ohne Anmeldung als Verwalter oder Verkündiger; die Daten werden regelmäßig zurückgesetzt.
+- **Programm der Dienstwoche:** Die Dienstwoche ist ein Eintrag im Plan, mit Programm als Seite, als Heft und als Knopf auf der Startseite.
+
+### Geändert
+
+- **Zugriff nur aus Status und Aufgaben:** Was eine Person sehen und tun darf, folgt allein aus Status und Aufgaben; die Personenseite zeigt es lesend.
+- **Neue Aufgaben:** „Verwalter", „Termine und Räume", „Sekretär-Gehilfe", „Sprachgruppe verwalten", „Gebietsbearbeitung" und „Plan sehen" (Letztere für Sammelkonten wie „Dienstwoche"); unter jeder Aufgabe steht, was sie gibt.
+- **Status unter „Aufgaben verteilen":** Älteste und Dienstamtgehilfen wählst du oben auf der Seite; leere Aufgaben und Gruppen ohne Gruppenaufseher sind markiert, ebenso Warnungen, was der neue Status nicht trägt.
+- **Status und Aufgaben auch ohne Login:** Der Reiter auf der Personenseite gilt auch für Personen ohne eigenes Konto.
+- **Der letzte Verwalter bleibt:** Eine Versammlung verliert ihren letzten Verwalter nicht, auch nicht durch Wegzug oder Deaktivieren.
+- **Wer geht, gibt zurück:** Bei Wegzug oder Deaktivieren gibt die Person ihre Gebiete und Tickets zurück.
+- **Erinnerungen auf „Private Termine":** Alle eigenen Erinnerungen stehen dort mit dem Tag der nächsten Fälligkeit; im Kalender führt eine Erinnerung direkt zu ihrer Seite.
+- **Sprachgruppe beim Plan:** Der Schalter „Mit Sprachgruppe" steht im Versammlungsplan neben „Alle | Meine".
+- **Sprachgruppe ohne Sonderschalter:** Mitglieder sehen die Zusammenkünfte der Sprachgruppe im „Aktuellen Plan" gleich mit, alle anderen schalten sie ein; „Sprachgruppen Versammlungsplan immer allen anzeigen" entfällt, die Doppelplanung regelt allein „Versammlungsplan Aufgaben bei Fremdsprache blockieren".
+
+### Behoben
+
+- **Seitenleiste in Chrome und Edge:** kein Strich mehr am Rand, im Dunkeln die richtige Farbe.
+- **Zurück schließt das Menü:** Nach „Zurück" ist das Bereichsmenü nicht mehr offen.
+
+## [9.45.0] — 2026-11-11
+
+### Geändert
+
+- **Testhinweis ruhiger:** Statt der orangen Leiste über jeder Seite steht „Testmodus" als Feld in der Leiste; es öffnet Uhrzeit, Rollenwechsel und Testbegrüßung.
+
+### Behoben
+
+- **Favoriten bearbeiten im Testmodus:** Die Leiste mit „Fertig" liegt nicht mehr unter dem Testhinweis.
+
+## [9.44.0] — 2026-11-11
+
+### Geändert
+
+- **Testhinweis am Handy:** Eine Zeile mit Uhrzeit, Rollenwechsel und „?" statt eines hohen Banners.
+- **Testbegrüßung:** Wer den Testmodus zum ersten Mal öffnet, liest kurz, was vapp ist, was der Testmodus ist und was sich ausprobieren lässt; das „?" im Testhinweis öffnet sie wieder.
+- **Orange Leisten lesbar:** Offline-, Plan- und Testhinweis-Leiste schreiben dunkel statt weiß auf Orange.
+- **Startseite im Testmodus:** Der Verwalter beginnt mit der erweiterten, der Verkündiger mit der einfachen Startvorlage – ohne Schnellauswahl.
+
+## [9.43.0] — 2026-11-10
+
+### Geändert
+
+- **Favoriten am Handy:** Das Favoriten-Symbol folgt beim Ziehen dem Finger.
+- **Bericht zum Dienstplan:** Er nennt einen Ersatz und wer ihn gesucht und freigegeben hat.
+- **Ersatz-Dank:** Ist der Ersatz übernommen, danken der Fragende und jeder Planer mit eigenen Worten statt mit einem Daumen.
+- **Beendetes Gespräch:** Ein grüner Haken zeigt ein erledigtes Gespräch, ein graues Zeichen eines, das ohne Übernehmer endete.
+- **Neues im Gespräch:** Jedes Gespräch mit Neuem zeigt seinen Punkt, auch wenn keine Mitteilung ging.
+
+## [9.42.0] — 2026-11-10
+
+### Geändert
+
+- **Trolley-Plakate je Sprache:** Ein Plakat hat Name, Anzahl und Foto je Sprache; am Trolley steht es in der Sprache, in der es hängt – auch Themen-Plakate wie der Bibelkurs.
+- **Bestückung:** Neben der Zeichnung steht, was zu holen ist, mit dem Kürzel der Rolle im Schrank.
+- **Ersatz suchen:** Unter der Anfrage steht jetzt „Die Planer … wurden informiert“ – klar getrennt von den Gefragten.
+- **Berechtigungen:** Status und Aufgaben stehen bündig nebeneinander, beide mit dem Titel über dem Feld.
+- **Startseite in Blatt:** Sind Begrüßung und Suche ausgeblendet, beginnt der oberste Block ohne Lücke, auf einer Höhe mit „Meine Termine“.
+- **Testhinweis:** Er steht als feste Leiste ganz oben wie die Offline-Leiste und verdeckt am Handy nichts mehr.
+- **Testanlage:** Sie zeigt eine eingerichtete, lebendige Versammlung – mit Favoriten, allen Funktionen, Aushängen, Trolley-Plakaten, Tickets, Gesprächen und ungelesenen Mitteilungen.
+- **Offline-Leiste in Blatt:** Am Handy liegt der Seiteninhalt nicht mehr unter der Leiste.
+- **Trolley:** Jede Trolley-Zeile unter „Für dich“ und in „Meine Termine“ führt direkt zum Haken im richtigen Monat, und der Kasten der Trolley-Wartung zeigt die offenen Tickets des Trolleys.
+- **Funktionen der Versammlung:** „Treffpunkt-Leiter gesucht“ steht als eigener Schalter direkt unter „Ersatz suchen“, nicht mehr eingerückt.
+
+## [9.41.0] — 2026-11-10
+
+### Geändert
+
+- **Startseite in Blatt:** Nach „Erweitert" erklärt ein Fenster in drei Schritten, wo du die Startseite bearbeitest, Blöcke hinzufügst und verschiebst.
+
+## [9.40.0] — 2026-11-09
+
+### Neu
+
+- **Mein Bericht:** Wer das Notizbuch führt, findet „Mein Bericht“ in Blatt gleich oben auf der Startseite.
+
+## [9.39.0] — 2026-11-08
+
+### Neu
+
+- **Termine und Erinnerungen:** Du wiederholst sie monatlich am letzten Wochentag, und einzelne Male einer Serie änderst oder löschst du allein oder samt allen folgenden.
+- **Predigtdienstgruppen:** „Meine" zeigt deine Gruppe mit Abhakliste, „Alle" jede Gruppe; die Gruppeneinteilung wird gedruckt und lässt sich im Formular einer Gruppe bearbeiten.
+- **Tickets:** Eine Nachricht trägt bis zu fünf Bilder.
+- **Dateien:** Jede gewählte Datei zeigt eine Vorschau-Kachel, und eine bestehende Datei entfernst du mit ×.
+- **Aushang:** Wer Aushänge verwaltet, ändert oder löscht einen geöffneten Aushang direkt im Fenster und landet danach wieder dort, wo er herkam.
+- **Trolley-Tickets:** Du meldest für alle Standorte, ohne einen Standort zu wählen; das Ticket steht unter jedem Standort-Filter.
+- **Startseite in Blatt:** Beim ersten Besuch wählst du „Einfach" oder „Erweitert" und die Schriftgröße, OK stellt deine Favoriten passend zusammen; nach „Erweitert" zeigen drei Sprechblasen, wo was steht.
+- **Favorit „Meine Gebiete":** Deine eigenen Gebiete als Favorit, mit der Zahl der überfälligen.
+- **Betriebsangaben:** „Blatt für alle ab" legt den Tag fest, ab dem alle, die nicht gewählt haben, Blatt sehen; die Werbekarte nennt ihn.
+- **Treffpunkt-Leiter gesucht:** Wer Treffpunkte leitet, sieht unter „Für dich“ offene Treffpunkte der nächsten 14 Tage und übernimmt einen mit „Ich übernehme“; der Erste gewinnt, wenn die Versammlung die Funktion einschaltet.
+
+### Geändert
+
+- **Gruppeneinteilung:** Wer sechs Monate nichts gemeldet hat, steht nicht mehr darin; die Liste von Hand pflegen entfällt.
+- **Instandhaltung:** Der Auftrag hat keine Anleitungs-URL mehr; die Arbeitsblätter seines Monats ersetzen sie.
+- **Personen am Telefon:** Die Liste zeigt bei jeder Person, ob sie eingeladen ist, wann sie zuletzt angemeldet war oder dass sie sich nie angemeldet hat.
+- **Alle Spalten:** Der Schalter über einer Tabelle zeigt mit Farbe und ✓, ob er an ist.
+- **Antwort ändern:** In Tickets und Ersatzanfragen siehst du dasselbe Antwortfeld wie beim Antworten, mit deinem Text; im Ticket entfernst oder ergänzt du Fotos.
+- **Ticket-Fotos:** In der installierten App öffnet ein Foto in einem eigenen Fenster, das du schließt.
+- **Favoriten:** „Gebiete" heißt „Freie Gebiete", die Berichte tragen ein gemeinsames Symbol, und lange Namen werden getrennt statt abgeschnitten.
+- **Alte Notiz-Sicherungen:** Die nicht übernommenen Sicherungen der alten Notiz-App sind gelöscht, ihre Seite und die Importfunktion entfallen.
+
+### Behoben
+
+- **Für dich:** Saal- und Trolley-Tickets stehen nur noch bei Personen mit eigener Rolle im Team, nicht mehr bei Administratoren; öffnen und bearbeiten können diese sie weiter.
+- **Druckaufträge:** Jedes Format öffnet die PDF, statt sie nur herunterzuladen.
+- **Favoriten aus Blatt:** Wer in Kacheln sein Profil speichert, behält Favoriten, die nur Blatt kennt.
+- **Zurück aus „Vorsitz WE":** Führt zum Versammlungsplan, auch nach Bearbeiten, Abbrechen oder Speichern.
+- **Prüfprotokoll zeigt nur Echtes:** Ein Speichern ergibt einen Eintrag, und leere Felder, die leer bleiben, erscheinen nicht mehr als Änderung.
+
+## [9.38.0] — 2026-11-07
+
+### Neu
+
+- **Erinnerungen:** Unter „Neuer Eintrag“ legst du dir Erinnerungen an, zu einer Zeit, vor der Zusammenkunft oder wiederkehrend, und hakst sie in „Für dich“ ab.
+- **Private Termine:** Du wählst selbst, wann dein Telefon dich vor einem Termin erinnert.
+
+### Geändert
+
+- **Für dich:** Auch Zeilen zum Einrichten lassen sich mit „Später“ verschieben und kommen zum gewählten Zeitpunkt wieder.
+
+### Behoben
+
+- **Ältere Konten:** Wer noch nie Favoriten gewählt hatte, sieht die Seiten wieder statt einer Fehlermeldung.
+
+## [9.37.0] — 2026-11-07
+
+### Geändert
+
+- **Filter:** Filter über Listen sind überall rund wie die Suche, so erkennst du sie auf einen Blick und unterscheidest sie von Formularen.
+- **Etwas melden:** Text und Foto gibst du im selben Feld ein wie in einem Gespräch, und im Ticket steht der Verlauf mit runden Ecken und Abstand über dem Antwortfeld.
+- **Gespräche:** Deine eigenen Nachrichten stehen in hellerem Blau und ohne deinen Namen, und bei Tickets findest du Ändern und Löschen immer hinter dem kleinen Pfeil in der Ecke.
+- **Gespräche:** Antworten schreibst du bei Tickets und Ersatzanfragen im selben Feld wie unter Mitteilungen, ein Ticket ohne Fenster, und Statuszeilen stehen als ruhiger grauer Text.
+- **Instandhaltung und Trolley – Team:** Helfer, Komitee und Koordinator vergibst du jetzt nur noch als Aufgabe, auf den Team-Seiten oder unter „Aufgaben verteilen“; bisher von Hand gesetzte Rechte sind übernommen.
+- **Startseite:** „Startseite“ und „Favoriten“ bearbeitest du getrennt: Halte eine Verknüpfung oder tippe „Favoriten wählen“, um nur die Favoriten zu ändern, und „Startseite bearbeiten“ verschiebt nur noch Blöcke.
+
+### Behoben
+
+- **Aushang – Pläne:** Die Vorschau eines Plans zeigt nach einer Änderung sofort den neuen Plan, auch in der installierten App.
+- **Berichte:** Liste und Excel passen jetzt zu den Zahlen für jw.org: Wer mitzählt, steht in der Liste oder im Hinweis darunter.
+- **Gebiete:** Die Karte eines Gebiets bleibt am Desktop beim Scrollen ganz sichtbar und rutscht nicht mehr unter die obere Leiste.
+
+## [9.36.1] — 2026-11-06
+
+### Geändert
+
+- **Gespräche – Ticket:** Nachricht, Foto und „Senden“ stehen in einem Rahmen, klar getrennt von „Ich kümmere mich“ und „Ticket abschließen“.
+
+### Behoben
+
+- **Mein Bericht:** „Zeit übertragen“ fragt wieder nach dem Übertrag, statt den Monat zu öffnen.
+- **Mein Bericht:** Der Zielbalken ist wieder groß, Stunden und Prozent stehen im Balken.
+- **Für dich:** Beim Laden stehen gleich drei Zeilen, statt kurz alle und dann weniger.
+
+## [9.36.0] — 2026-11-05
+
+### Neu
+
+- **Versammlungsplan – Meine:** In Blatt zeigt „Meine“ über dem Plan alle deine Aufgaben nach Datum, über alle Seiten; ein Abend, an dem du abwesend bist, ist orange, und angefragter Ersatz steht dabei.
+
+### Geändert
+
+- **Gebietskarte:** Der Pin erscheint nur noch, wenn ein Karten-Link hinterlegt ist, und öffnet ihn direkt, zum Beispiel in Apple Karten oder Google Maps; die größere Karte öffnest du über den neuen Knopf bei den Zoom-Knöpfen.
+- **Startseite in Blatt:** Verwaltung und Monitoring stehen nur noch im Menü, und „Weitere Apps“ schließen die Seite über die ganze Breite ab.
+- **Einladung zu Blatt:** Die Karte auf der Kacheln-Startseite kündigt Blatt in einem Satz an und sagt, wo es zurückgeht, statt vier Seiten zum Wischen.
+- **Instandhaltung:** Das Jahr wechselst du jetzt mit den Pfeilen im Kopf der Box, wie den Monat beim Auftrag.
+- **Instandhaltungsauftrag:** Beim Abhaken bleibt die Seite an ihrer Stelle, und am Telefon nutzen die Arbeitsblätter die ganze Breite.
+- **Gebiet in Blatt:** Das Gebiet zeigt Karte, Aktionen, Nicht besuchen, Straßen und Verlauf auf einer Seite statt in Reitern, und der Gebietsdiener gibt aus, weist zu und nimmt zurück gleich dort; die Stammdaten liegen unter „Mehr“ › „Gebietsdaten bearbeiten“.
+- **Für dich – Später:** Am Telefon zeigt die erste Zeile an den ersten Tagen kurz von selbst, dass dahinter „Später“ liegt.
+- **Demostand:** Er zeigt jetzt jeden Zustand eines Gebiets, Instandhaltungsaufträge mit Arbeitsblättern über die Monate, Tickets mit Gesprächen und laufende Ersatzanfragen.
+- **Gebiet freigeben:** Der erste Druck auf „Freigabe“ erstellt die Freigabe und zeigt den Code gleich an; löschen kann sie der Gebietsdiener in der Ansicht unter „Aktionen“.
+- **Gebietsdaten bearbeiten:** Die Überschriften im Reiter „Daten“ tragen die blaue Linie wie die anderen Seiten.
+- **Gebiet bearbeiten:** „Bearbeiten“ steht als eigener Knopf im Kopf der Gebietsseite, „Neues Gebiet“ nur noch in der Gebietsliste.
+- **Gebiet – Verlauf:** Die Ansicht zeigt die letzten fünf Einträge; alle stehen im neuen Reiter „Historie“ unter „Bearbeiten“, und nur dort wird gelöscht.
+- **Gebietskarte:** Ändert sich die Größe der Karte, zeigt sie danach wieder das ganze Gebiet, und ihre Nebenknöpfe sind kleiner.
+- **QR-Code im Gebiet:** Bis der Code geladen ist, hält eine graue Fläche seinen Platz frei, und der Dialog springt nicht mehr.
+
+## [9.35.1] — 2026-11-05
+
+### Behoben
+
+- **Ticket:** „Antwort ändern“ und „Antwort löschen“ liegen hinter ⋮ in der Ecke der Antwort, und „Ticket abschließen“ und „Antworten“ stehen nicht mehr aneinander.
+
+## [9.35.0] — 2026-11-03
+
+### Neu
+
+- **Tabellen am Telefon:** Der Schalter „Alle Spalten“ über einer Tabelle zeigt jede Spalte, und deine Wahl gilt auf diesem Gerät für alle Tabellen.
+
+### Geändert
+
+- **Berichte – Zeilen:** In Blatt zeigt jede Zeile in Gruppe und Versammlung dasselbe, auch die Bemerkung und die letzten sechs Monate; ein Tipp auf den Haken „erhalten“ macht den Bericht wieder offen.
+- **Berichte – Auswahl:** Über der Liste wählst du nur offene oder nur unvollständige Berichte, und jede Kachel öffnet, was sie zählt.
+- **Berichte – Pioniere:** Der Verwalter kommt oben auf „Berichte der Versammlung“ direkt zur Pionierliste.
+- **Berichte – Excel:** Das Abgabedatum steht jetzt im Excel statt in der Liste.
+- **Telefon – Leiste:** Liest du nach unten, wird die Kapsel klein, statt zu verschwinden.
+- **Tickets:** In Blatt steht der Verlauf direkt unter dem Kopf, und ein Ticket heißt nach der ersten Zeile seiner Meldung.
+- **Tickets – Liste:** In Blatt treten abgeschlossene Tickets zurück, mit höchstens zwei Zeilen in leisem Grau, damit das Offene auffällt.
+- **Müllkalender:** Er hat eine eigene Seite neben „Reinigung verwalten“.
+- **Trolley und Instandhaltung – Teams:** Sie heißen „Trolley-Helfer“ und „Instandhaltungs-Helfer“; Instandhaltungs-Komitee und Trolley-Koordinator stehen unter „Team“, und die Verwaltung der Versammlung wählt sie dort.
+- **Arbeitsblätter – Suche:** Du findest ein Blatt nach seinem Titel und nach dem Monat, in dem es fällig ist.
+
+### Behoben
+
+- **Trolley – Entzug:** Wer die Route oder das Recht verliert, wird aus allen künftigen Schichten ausgetragen; wer entzieht, sieht, wie viele es waren.
+- **Trolley – Eintragen:** In eine Schicht lässt sich nur eintragen, wer Mitglied der Route ist.
+- **Berichte:** „Nicht tätig“ behält die getippte Bemerkung, und „Ohne Gruppe“ hält die gewählten Stand und Dienstart ein.
+- **Ersatzsuche:** Die Planer werden wieder an fällige Anfragen erinnert.
+- **Sortieren nach Gebiet:** Gebiete-Historie und Verbote zeigen keine Fehlerseite mehr.
+- **Gebiete – Lage:** Ohne Saalpunkt sagt die Karte, dass der Saal fehlt.
+- **Überwachung:** Ein Klick auf die Spalte Name sortiert die Liste nach Name.
+- **Für dich:** „Später“ trifft nur die Karte, auf der du es wählst.
+- **Instandhaltung – Monat:** Nach dem Wechsel in einen anderen Monat führt „Zurück“ zur Übersicht.
+- **Fenster auf dem Profil:** Im Profil und in der Kontoeinrichtung öffnet ein Fenster einmal und ist nicht mehr ausgegraut.
+- **Dunkles Aussehen:** Ausgeschaltete Schalter, leere Kästchen und gesperrte Knöpfe sind gut zu sehen.
+
+## [9.34.0] — 2026-11-03
+
+### Neu
+
+- **Nachrichten löschen:** In Tickets und Ersatzanfragen löschst du eine Nachricht; an ihrer Stelle steht ein Hinweis statt des Textes.
+- **Ticket löschen:** Wer ein Ticket gemeldet hat, löscht es selbst, solange noch niemand daran gearbeitet hat.
+- **Ersatzanfrage löschen:** Der Fragende, der Planer und der Admin löschen eine Ersatzanfrage.
+
+### Geändert
+
+- **Textfelder:** Jedes Textfeld wächst mit dem Text, du musst nicht mehr scrollen.
+- **Kontoeinrichtung:** „Kontoeinrichtung erneut starten“ steht jetzt unten im Profil in einem eigenen Abschnitt.
+- **Ersatzanfrage:** Haben alle Gefragten abgesagt, fragst du mit „Weitere fragen“ weitere Personen.
+- **Bericht der Versammlung:** Für einen Monat ohne gesammelte Berichte zeigt die Seite keine Zahlen für jw.org.
+- **Eingabe auf jw.org:** Der Knopf zum Bestätigen heißt jetzt „Als eingegeben markieren“.
+
+### Behoben
+
+- **Treffpunkt:** „Datum/Zeit geändert“ kommt nur noch, wenn sich Datum oder Zeit wirklich geändert haben.
+- **Trolley-Kalender:** Routen mit den Nummern 9 und 10 stehen wieder in der richtigen Reihenfolge.
+
+## [9.33.0] — 2026-11-01
+
+### Neu
+
+- **Favoriten in drei Größen:** Klein, Mittel oder Groß und bis zu drei Zeilen wählst du beim Bearbeiten der Startseite; die Symbole tragen die Farbe ihres Bereichs jetzt im Zeichen.
+- **Suche und Mitteilungen in jeder Leiste:** Lupe, Glocke mit der Zahl des Neuen und Ich stehen nach den Bereichen, am Telefon oben.
+- **Namen ohne Person:** Der Sekretär schreibt in „Predigtdienstgruppen“ auch Namen ohne Konto in eine Gruppe, etwa Kinder; sie stehen auf der Seite, im Ausdruck und in der Abhakliste.
+- **Datenexport:** Stumm geschaltete und archivierte Gespräche stehen jetzt auch in der Auskunft.
+- **Ticket-Seite:** Das Formular zu „Abschließen“, „Zieltag“ und „Wiederholen“ öffnet im Bild am Knopf, „Löschen“ steht abgesetzt in Warnfarbe, und der erste Reiter der Saal-Tickets ist am Telefon ganz zu sehen.
+
+### Geändert
+
+- **Einstellungen:** Die Seite heißt „Einstellungen“ statt wie du, deine eigene Sprache steht ohne Klammer, die doppelte Überschrift unter „Anzeige“ ist weg, und „Navigation“ steht nur noch am Rechner, wo sie wirkt.
+- **Zeit übertragen:** Im Notizbuch steht dafür ein Knopf unter dem Monat statt des Hinweises und des Symbols im Monatskopf.
+- **Vorsitz WE:** Die Seite zeigt Datum, Vortrag und Rollen als Blatt statt als Tabelle.
+- **Trolley auf dem Telefon:** Das Datum steht als schmale Zeile oben, die beim Blättern stehen bleibt.
+- **Willkommen in Blatt:** Die Karte kommt nur noch beim ersten Wechsel, nicht bei jedem Rückweg von Kacheln.
+- **Berichte der Gruppe und der Versammlung:** Auf dem Handy stehen die Zahlenkästen und die beiden Filter je in einer Zeile, „Zurücksetzen“ ist ein Kreuz am Zeilenende.
+- **Pioniere und Berichte:** Pioniere trägt nur noch der Verwalter ein; „Berichte der Versammlung“ gibt nur der Verwalter, und niemand sich selbst.
+
+### Behoben
+
+- **Instandhaltung:** Ein neues Ticket lässt sich wieder speichern, auch ohne gewählte Wartung.
+- **Berichte:** Nur wer die Berichte einer Versammlung oder Gruppe lesen darf, bekommt sie zu sehen, auch im Datenexport für eine andere Person und nach einem Umzug in die Nachbarversammlung.
+- **Feld „Zuständig“:** Auf der Ticket-Seite bleibt es beim Aufklappen breit, die Namen sind ganz lesbar.
+- **Umzug:** Nach einem Umzug bleiben die alten Pionierzahlen der Versammlung stehen, die neue Versammlung trägt den Pionierdienst neu ein.
+- **Mitteilungen:** Antworten aus einer anderen Versammlung zählen in der roten Zahl; Glocke und Mitteilungsseite zeigen dieselbe Zahl.
+
+## [9.32.0] — 2026-10-31
+
+### Neu
+
+- **Zieltag für Tickets:** Ein Ticket mit Zieltag erscheint unter „Für dich“ erst eine Woche davor, Trolley-Tickets kommen auf Wunsch von selbst wieder.
+- **Müllkalender:** Die Leerungen des Entsorgers stehen im Reinigungskalender, und um 18 Uhr sagt ein Push, welche Tonnen raus- oder reinmüssen.
+- **Gespräche in den Mitteilungen:** Ersatzanfragen und Tickets, in denen du schreibst, stehen gesammelt unter „Gespräche“ und lassen sich dort direkt beantworten.
+- **Trolley „Alle | Meine“:** „Meine“ zeigt nur deine Schichten, mit wem du vorher und danach eingeteilt bist.
+- **Gruppeneinteilung:** Der Sekretär legt in „Predigtdienstgruppen“ selbst fest, wer in welcher Gruppe steht.
+- **Startseite:** Favoriten als App-Symbole mit Seiten, „Mein Bericht“ als eigener Block, Begrüßung und Suche ausblendbar; beim Bearbeiten steht „Fertig“ fest oben, „Abbrechen“ verwirft.
+
+### Geändert
+
+- **Pioniere als Zeitraum:** Hilfs- und allgemeine Pioniere trägst du einmal mit Beginn und Ende ein statt Monat für Monat; der Bericht zeigt die Art direkt in der Zeile.
+- **Instandhaltung im Menü:** Wer Saal-Tickets bearbeitet, kommt direkt zu den Saal-Tickets.
+- **„Für unterwegs laden“** steht jetzt im Profil unter „Geräte“.
+- **Straßensuche** auf der Startseite nur noch für Gebietsdiener.
+
+### Behoben
+
+- **Import aus NW Publisher:** Personen mit „MS“ oder „UBP“ und die Namensspalte kommen richtig an.
+- **Instandhaltung:** Dein Auftrag steht in „Meine Termine“ schon vor seinem Monat.
+- **Mitteilungen:** Auf breiten Bildschirmen volle Breite; archivierte Gespräche öffnen im Archiv.
+
+## [9.31.0] — 2026-10-30
+
+### Neu
+
+- **Tickets:** Du änderst, ziehst zurück oder löschst dein Ticket (mit Fotos), solange niemand geantwortet hat; neue Antworten erscheinen von selbst, der Verlauf steht in Blasen. Saal- und Trolley-Tickets bleiben am Ort.
+- **Ersatzanfrage:** Neue Nachrichten erscheinen von selbst; du antwortest mit Text, änderst Nachrichten und setzt den Daumen auch nach der Übernahme.
+- **Historie am Arbeitsblatt:** Alle Tickets dazu, offene und abgeschlossene.
+- **Favoriten:** Mehr Favoriten (Instandhaltung, Trolley-Tickets, Berichte der Versammlung), „Etwas melden“ direkt von der Startseite. Der Stern im Menü sagt, was er getan hat, mit „Rückgängig“.
+- **Startseite bearbeiten:** Bereiche und Favoriten gedrückt halten, ziehen, ausblenden.
+- **„Für dich“:** Zeile nach links wischen und für morgen, eine Woche oder die nächste Zusammenkunft zurückstellen.
+- **Abhakliste:** Bei deiner Gruppe gibst du ihr eine Überschrift und jeder Farbe einen Namen; „Neu anfangen“ beginnt eine neue Liste.
+- **Mitteilungen wie Mail:** Wischen zum Archivieren oder Löschen, mehrere auswählen, ungelesene mit Punkt.
+- **Zuletzt gesucht:** Das Suchfeld bietet deine letzten Suchbegriffe an.
+- **Listen am Handy:** Statt Tabellen siehst du Listen.
+- **Tabellen am Handy:** Jede Tabelle ist lesbar, als Liste, mit stehenbleibender Namensspalte oder mit Auswahl der Spalte.
+- **Speichern bleibt sichtbar** in langen Formularen und Einstellungen.
+- **Team-Seite** im Saal- und Trolley-Bereich; Teams verteilst du aus allen Versammlungen des Saals.
+- **Bibelschüler:** Neuer Status, ohne Bericht.
+- **Vormonate:** Der Sekretär trägt sie im ersten halben Jahr der Berichte ein.
+- **Alle für alle Aufgaben:** Schalter in der Planung von Woche, Wochenende, Schule und Ordnungsdienst für die Personenlisten.
+- **Datenschutz:** Die Erklärung nennt die Tickets; der Dialog bittet, keine Personen zu fotografieren.
+- **Zwei Fotos je Route** in der Ausrüstung.
+
+### Geändert
+
+- **Gruppe löschen:** Möglich auch mit Zusammenkünften, Themen, Treffpunkten und Reinigungen; der Dialog nennt vorher, was mitgeht.
+- **Aufgaben:** Die Instandhaltung gibst du mehreren Personen; die Teams stehen vor den Aufgaben.
+- **Instandhaltung:** Rollen heißen Instandhaltungs-Komitee und -Team; der Auftrag erscheint ab dem 1. des Monats, mit Pfeilen zwischen den Monaten.
+- **„Für dich“:** Zeigt nur, was du jetzt tun musst.
+- **Menüs am Handy:** Größere Zeilen, besser zu treffen.
+- **Einladungen drucken:** Der Knopf nennt die Zahl der Gewählten.
+- **Bericht-Einstellungen** statt „Notiz-Einstellungen“.
+- **Fehlerseiten** behalten Kopf und Menü.
+- **Plan bearbeiten:** Nach dem Speichern bleibst du im Editor.
+- **Kartenausschnitt speichern:** Der Knopf sitzt auf jeder Karte in der Ecke, nicht mehr in der Kopfzeile.
+- **Griechisch und Russisch:** Weitere Seiten übersetzt.
+- **Trolley-Kalender:** „Etwas melden“ steht in einer Reihe mit „Heute“ und ist leichter zu finden; „Mehr“ mit den übrigen Trolley-Seiten und der Historie steht oben im Seitenkopf.
+- **Knöpfe in Blatt:** Nebenknöpfe sehen überall gleich aus, in einem sanften Grau wie die Datumsauswahl im Trolley-Kalender; Formular- und Dialogfüße zeigen nur das Wort.
+- **Kleinere Verbesserungen** an Dienstwoche, Kalender, Tabellen und Knöpfen in Blatt.
+
+### Behoben
+
+- **Kalender:** Kein weißer Block mehr unter dem ersten Termin eines Tages.
+- **„Nicht besuchen“ im Gebiet:** „Zu den Adressen“ ist auf dem orangen Hinweis wieder gut lesbar, auch im Dunkeln.
+
+## [9.30.0] — 2026-10-24
+
+### Neu
+
+- **Zähldienst:** Der zuständige Dienst wird unter „Für dich“ ans Zählen der Anwesenden erinnert, bis alle Zahlen erfasst sind.
+- **Ersatzsuche als Gespräch:** Nachrichten und Verlauf sind an einem Ort; Planer können mitlesen.
+- **Bericht am Handy:** Dienstberichte lassen sich mobil einfacher eintragen; „Mein Bericht“ und „Für dich“ sind übersichtlicher.
+
+## [9.29.0] — 2026-10-23
+
+### Neu
+
+- **Instandhaltung:** Neue Funktion und Aufgabe; die Versammlung schaltet sie an. Pro Monat plant sie eine oder
+  zwei Gruppen mit Zieltag, schlägt die Gruppe der ersten Hauptreinigung vor und gibt das Jahr als PDF aus.
+- **Arbeitsblätter:** Als Checkliste zum Abhaken im Auftrag; Mängel meldest du direkt am Blatt.
+- **Auftrag erledigt melden:** Aufseher und Gehilfe der Gruppe sehen ihn unter „Für dich“ und „Meine Termine“.
+- **Saal-Tickets:** Mängel am Saal meldest du mit Foto oder Text; die Instandhaltung antwortet. Ein QR-Code als Aushang führt direkt zur Meldung.
+- **Trolley-Tickets:** „Etwas melden“ im Trolley-Kalender für Schäden an Trolley oder Stand.
+- **Trolley-Team:** Neue Aufgabe verwaltet Routen und Ausrüstung und bearbeitet Trolley-Tickets.
+- **Tickets unter „Für dich“:** Wer Tickets bearbeitet, sieht offene und eigene wartende Tickets.
+
+### Geändert
+
+- **Instandhaltung nur für die eingeteilte Gruppe:** Ein Eintrag am Zieltag statt im Reinigungskalender für alle; alte Einträge sind übernommen.
+- **Aufträge ohne Gruppe:** Gehen an alle Gruppen; eine gelöschte Gruppe löscht den Auftrag nicht mehr.
+- **Rückmeldungen als Ticket:** Du liest die Antwort und schreibst zurück; die alten Rückmeldungen sind gelöscht.
+- **Bereichseinstellungen:** Übersichtlicher in Gruppen, mit einem Speichern-Knopf für die ganze Seite.
+- **Trolley-Kalender:** Neuer Weg zurück auf jeder Trolley-Seite, „Schaden melden“ auch am Handy, Hinweis bei einem Plan, der 10 Minuten oder älter ist.
+
+## [9.28.0] — 2026-10-20
+
+### Neu
+
+- **Sicherung im Browser:** Unter System → Sicherung lädt der Betreiber die ganze Anlage als
+  verschlüsselte Datei herunter; `restore.sh` spielt sie auf einer neuen Anlage ein.
+- **Notfallzugang:** Der Betreiber gibt einer Person das Recht, nur diese Sicherung zu laden — für den
+  Tag, an dem er selbst nicht erreichbar ist.
+- **Predigtdienstgruppen für alle:** Jeder sieht die Gruppenliste, die eigene Gruppe oben mit dem Stand
+  ihrer Berichte und der Abhakliste; der Favorit „Meine Gruppe" öffnet sie.
+- **Öffentliche Vorträge für alle:** Jeder, der den Versammlungsplan sieht, liest die kommenden
+  Gastredner als Kartenliste — mit „Dienstwoche" und „Gastgeber gesucht" am Termin.
+- **Gastfreundschaft:** Der Vortragsplaner hält je Termin fest, ob der Gastredner einen Gastgeber
+  sucht und ob einer gefunden ist.
+
+### Geändert
+
+- **Menü Versammlung:** Neue Gruppe „Für mich" mit „Meine Termine", Abwesenheit, Bericht und privaten
+  Terminen; „Aktueller Plan" heißt „Versammlungsplan"; Woche, Schulung und Wochenende öffnet man über „Verwalten".
+- **„Meine Ereignisse" heißt überall „Meine Termine"** — auf der Startseite, im Menü und über dem Kalender.
+- **Kalender-Abo** steht als Knopf im Kopf von „Meine Termine"; die Hinweisleisten über Versammlungsplan,
+  Trolleyplan und Kalender sind weg.
+- **Menü Trolley:** „Teilnehmer" steht in der Gruppe Trolley; verwaltet wird über „Verwalten" im Kopf der Seite.
+- **„Einrichten" heißt nach dem Bereich:** „Gebiete einrichten" und „Trolley einrichten", wie schon „Plan einrichten".
+- **Benutzermenü:** „Einstellungen" steht ganz oben, „Eilmeldungen" direkt unter „Hilfe".
+- **„Neuer User" ist ein Menü:** „Von Hand anlegen" oder „Beitrittslink teilen" — ein Knopf statt zwei.
+- **Gruppenüberschriften im Menü** heben sich am Computer durch fettere, weiter gesperrte Schrift ab.
+
+### Entfernt
+
+- **Excel-Export der Aufgaben- und Dienst-Statistik.**
+
+### Behoben
+
+- **Instandhaltung:** Der Weg zurück führt zum Plan des Jahres, „Erledigt“ und „Mangel melden“ stehen in einer
+  Zeile, und „Fällig in“ verdeckt das erste Monatskästchen nicht mehr.
+- **Raumplan:** Der Dialog eines Termins zeigt keine englischen Systemzeilen mehr.
+- **Safari:** Die Menüspalten stehen auf einer Höhe, und der Kalender wächst beim Scrollen nicht mehr.
+- **„Meine Gruppe":** Ohne eigene Gruppe zeigt die Liste niemanden mehr statt der ganzen Versammlung.
+
+### Betrieb
+
+- **Paket neu holen:** `compose.prod.yaml`, `backup.sh`, `restore.sh` und der neue Ordner `lib/`
+  kommen aus dem Image (SELFHOST.md, Schritt 1).
+
+## [9.27.0] — 2026-10-19
+
+### Neu
+
+- **Beitrittslink:** Ein Link oder QR-Code, über den sich Personen selbst ein Konto anlegen; der Verwalter gibt
+  jedes Konto frei oder verwirft es.
+- **Ersteinrichtung als Assistent:** Schritt für Schritt durch Datenschutz-Kontakt, Bereiche, Helfer und
+  Zugänge; danach zeigt die App, was noch offen ist.
+- **Gebiete selbst übernehmen:** Verkündiger nehmen sich in Blatt ein freies Gebiet und geben es zurück,
+  auch unfertig; der Gebietsdiener schaltet das ein.
+- **„So funktioniert"** — je Bereich eine Seite mit Aufgaben und Rechten.
+- **Saal auf der Karte antippen** statt Gradzahlen eintragen.
+- **Personen mit ihren Predigtdienstgruppen einlesen** — aus der Spalte „Gruppe".
+- **Mein Bericht** zeigt die Dienstjahre als Diagramme, auf Knopfdruck unter „Statistik anzeigen".
+
+### Geändert
+
+- **Neue Datenschutzerklärung und AVV:** Sie nennen die neuen Gebiets- und Ersatzfunktionen; alle
+  bestätigen einmal neu.
+- **Ein Haken heißt erledigt** — offene Einrichtungen stehen bei ihrem Helfer unter „Für dich".
+- **Ersatzsuche, Bericht und Selbstabgabe** stehen jetzt in den Einstellungen des Versammlungsplans.
+- **„Dienstwoche beenden"** zeigt zuerst, welche Gebiete noch ausgegeben sind.
+- **Blatt, Startseite aufgeräumt:** Mitteilungen als Zahl am Profilbild, „Meine Ereignisse" am PC rechts.
+- **Trolley-Plan passt sich der Fensterbreite an:** schmal eine Liste je Route, breit das Raster.
+- **Vor der Anmeldung spricht die App die Sprache des Browsers.**
+
+### Behoben
+
+- **Sicherheit:** Nur der Betreiber versetzt Personen an einen anderen Ort.
+- **Verkündiger einlesen** überschreibt kein Passwort und keine Einladung mehr.
+- **Gebiete der eigenen Gruppe** öffnen sich dem Gruppenmitglied, das Gebiete ausgibt.
+- **„Wer darf was":** Die Namenssuche bleibt beim Wechsel der Liste stehen.
+- **Vortragsplan (PDF):** Redner und Versammlung in einem Feld — ein Vortrag ist meist eine Zeile.
+- **Dialoge:** Die Leiste unten verdeckt ihre Knöpfe nicht mehr.
+- **Programm einlesen** bietet das andere Heft nur an, wenn es noch fehlt.
+
+## [9.26.0] — 2026-10-14
+
+### Neu
+
+- **Kacheln oder Blatt im Fuß jeder Seite** — umschalten ohne Umweg über das Profil.
+- **Einladung zu Blatt** auf der Startseite von Kacheln, mit Bildern dessen, was nur Blatt kann —
+  erst ab dem Tag, den der Betreiber unter Systemeinstellungen setzt.
+- **Willkommen in Blatt:** Eine Karte nennt am ersten Tag den Weg zurück.
+
+### Geändert
+
+- **„Blatt (Beta)" heißt „Blatt".**
+- **Neue Konten beginnen in Blatt** — ohne Wahl der Oberfläche; bestehende bleiben, wie sie sind.
+- **Suche und Filter über der Tabelle** jetzt auch bei Personen, Trolley-Mitgliedern, Vorträgen,
+  Monitoring und „Wer darf was".
+- **Gebiete, Druckaufträge:** Gebietskarten und DIN A4 kommen als ein Dokument mit allen Gebieten,
+  nicht mehr in Stücken zu 100.
+- **Blatt, Hinweise nach Bedeutung:** grau ein Hinweis, orange eine Warnung, grün erledigt, rot nur
+  ein Fehler — mit Farbrand und zarter Fläche.
+- **Blatt, Versammlungsplan wie gedruckt:** Abschnitte mit Farbrand, auch beim Bearbeiten; dein Name
+  als grüne Pille, Abwesende als zarte rote, beide mit Personensymbol; auch bei deinen Treffpunkten
+  im Kalender.
+- **Blatt, Berechtigungen:** Die Bereichsköpfe sind ruhiger, mit Farbrand statt vollem Balken.
+- **Blatt, Knöpfe:** Nebenknöpfe und PDF sind graue Pillen, PDF mit rotem Symbol; Rot heißt nur noch
+  Löschen.
+- **Blatt, Startseite:** Jeder Weg endet in einem blauen ›, Favoriten trennt eine feine Linie, Termine
+  tragen ihr Datum vorn.
+- **Symbole einheitlich gefüllt** — Umrisse nur noch, wo etwas aus ist (Stern, leerer Kreis).
+- **Versammlungsplan in den Farben des Arbeitshefts** — auch in Kacheln und im Druck; das
+  Wachtturm-Studium hat eine eigene Farbe, der Vortrag keine.
+- **Blatt, Farben:** ein kühles Grau überall; Fehler, Erledigt und Verwaltung haben eigene Farbtöne,
+  das Grün für Erledigt und Gruppengebiete ist hell.
+- **Blatt, Versammlungsplan schlanker:** Ersatz suchst du über deinen eigenen Namen; „Deine Aufgabe“
+  und der Vorsitz-Hinweis fallen weg, der Vorsitz ist ein schlichter Link;
+  Abschnittsköpfe in Großbuchstaben wie im Arbeitsheft.
+- **Blatt, Trolley-Kalender:** Jede Route trägt ihren Farbrand und eine zarte Fläche statt vollem
+  Balken; frei und deins stehen kräftig, von anderen belegte Plätze blasser, dein Eintrag fein umrandet.
+  Ein freier Platz sagt „frei · eintragen“ und lässt sich als Ganzes antippen.
+
+### Behoben
+
+- **ePUB-Vorschau in Worten** – Programmpunkte und Datum lesbar; die Reinigung nennt bei Einträgen
+  des ganzen Saals die Versammlungen.
+- **Kalender:** Die Tage stehen unter ihrem Spaltenkopf; heute ist in Blatt blau, in den Listen
+  steht „Heute".
+- **Auswärtige Redner:** Der Vortrag von heute ist wieder gelb markiert.
+- **Berichte:** Ein Haken lässt die Zeilen darunter nicht mehr springen.
+- **Blatt, dunkel:** Das Blatt hat links und rechts eine klare Kante.
+- **Gebiete:** Das Bild unter dem Kopf einer Gebietskarte hat oben keine runden Ecken mehr.
+- **Systemeinstellungen, dunkel:** „hier eingetragen" ist wieder weiß auf Blau lesbar.
+
+## [9.25.1] — 2026-10-13
+
+### Geändert
+
+- **Verwalten steht im Planungsumschalter** — vor Woche, Schule, Wochenende und Dienst, und
+  „Verwalten" zeigt die Leiste auch.
+
+### Behoben
+
+- **Woche (Schulung):** Die Spaltenköpfe stehen auf gleicher Höhe wie bei Woche und Wochenende.
+- **Safari:** Das aufgeklappte Bereichsmenü zeigt keinen leeren Scrollbalken mehr.
+
+## [9.25.0] — 2026-10-12
+
+### Neu
+
+- **PDFs in einheitlichem Stil** — durchsuchbar, schwarz-weiß-tauglich, gleicher Kopf mit Versammlung
+  und Stand; Versammlungsplan eine Woche je Blatt.
+- **Neue PDFs:** Gruppenliste, „Wer darf was" je Bereich, Aushang-Ausdrucke direkt im Seitenkopf.
+- **Gebiete: Meine, Freie, Alle als Umschalter**; Leihgebiete lassen sich in den Einstellungen abschalten.
+- **„Lange nicht angemeldet"** ist ein Filter unter „Alle Personen" (ersetzt „Inaktive Personen").
+
+### Geändert
+
+- **Neue Navigation:** Der Seitenkopf nennt die Seite und den Weg zurück, Verwalten, Verlauf und
+  Statistik sind Knöpfe im Kopf; das Menü markiert auch auf Unterseiten, wo man steht.
+- **Schlankere Menüs** — Vortragsplanung und Gruppenplan unter „Zusammenkünfte", Gebiete in Gebiete,
+  Karten und Pflege gegliedert, Statistiken über eine Leiste statt vieler Einträge.
+- **Filter und Suche in einer Zeile** über der Liste, statt großer Knöpfe und Kacheln.
+- **Einheitliche Knöpfe** — Pillen mit Text, Abbrechen als schlichter Text neben Speichern.
+- **„Massenpflege" heißt „Mehrfachbearbeitung".**
+- **Eingehende Redner** sind für alle Planer lesbar.
+- **Für Betreiber:** PDF-Exporte brauchen den Dienst `gotenberg` aus `prod/compose.prod.yaml`.
+
+### Behoben
+
+- **Gebietskarten A4** brechen nicht mehr ab und passen auf ein Blatt.
+- **Die Zahl am Avatar sinkt sofort**, wenn eine Mitteilung gelesen wird.
+- **Darstellung am Telefon:** Seitenkopf, Knöpfe mit Zähler und Filterhöhen stimmen wieder.
+
+## [9.24.3] — 2026-10-10
+
+### Behoben
+
+- **Lange Tabellen wiederholen ihre Spaltenköpfe wieder als Köpfe** — fett und ohne Unterstrich,
+  wie oben.
+
+## [9.24.2] — 2026-10-10
+
+### Geändert
+
+- **Gruppenberichte direkt in der Zeile (Blatt):** Ein Haken meldet „Tätig", ein Druck öffnet die
+  Zeile für Zahlen oder „Nicht tätig", und nach jeder Änderung steht „Rückgängig" bereit.
+- **Changelog in Blatt:** Jede Version beginnt an einer Blattkante, wie die Eilmeldungen.
+
+### Behoben
+
+- **Gebiete: „Kacheln" führt wieder auf die Seite, die „Für unterwegs" geladen hat** — und auf
+  „Alle Gebiete" zeigt es wirklich Kacheln.
+- **Aktivitätsprotokoll:** Feld, vorher und nachher stehen auf einer Linie, die Werte mittig.
+
+## [9.24.1] — 2026-10-09
+
+### Behoben
+
+- **Server antwortet wieder:** 9.24.0 brach auf Prod jede Seite mit Fehler 500 ab.
+
+## [9.24.0] — 2026-10-09
+
+### Geändert
+
+- **Planung fragt vor dem Verlassen:** wer Änderungen nicht gespeichert hat, wird gefragt, bevor die Seite wechselt.
+- **Detailplanung blättert:** Pfeile neben dem Datum führen zur vorigen und nächsten Zusammenkunft, im selben Abschnitt.
+- **Massenplanung mit Wechsler:** Woche, Woche (Schulung), Wochenende und Ordnungsdienst wechseln mit einem Tipp, auch im Verlauf.
+- **Suche auf der Startseite sagt, was sie findet:** „Seiten", je nach Rolle auch Gebiete, Straßen, Personen.
+- **Trolley-Richtlinien und Eilmeldungen in Blatt:** Editor und jede Meldung trennt dieselbe Blattkante wie die Tage im Plan.
+- **Aushang als Seite liest sich wie ein Plan:** blaues Datum, darunter groß der Titel.
+- **Bereichsleiste am Telefon mit Namen:** unter jedem Symbol steht ein Kurzname.
+- **Kachel „Gebiete" führt direkt zu den freien Gebieten** (Blatt); die Kachel „Alle Pläne" entfällt —
+  beides steht in der Bereichsleiste.
+- **Anwesende zählen zeigt immer eine Zahl:** 0 mit Gruppensymbol, solange nicht gezählt, danach
+  die Zahl mit Haken — jetzt auch bei den Treffpunkten.
+- **Knöpfe im Seitenkopf am Telefon nur als Symbol** — mehr Platz neben dem Breadcrumb.
+- **„Mein Bericht" auf der Startseite als schlichte Zeile:** Stunden und Ziel in einem Satz, ein dünner
+  Balken statt zwei großer.
+
+### Behoben
+
+- **Mitteilungen und Aktivitätsprotokoll:** nur das Datum bzw. Objekt ist unterstrichen, die Meldung
+  bleibt als Ganzes antippbar.
+- **Felder in Tabellen wieder kompakt:** Datum, Auswahl und Eingabe stehen so hoch wie die Knöpfe der Zeile.
+- **Auswahl in Tabellen springt nicht mehr:** ein gewähltes Lied (Vorträge) macht die Spalte nicht breiter.
+- **Wer nach dem Monatsende dazukommt, wird für diesen Monat nicht mehr nach dem Bericht gefragt** —
+  kein Hinweis, kein Formular.
+- **Erinnerungen nennen dieselbe Zahl offener Berichte wie die Kacheln.**
+- **Anonymisierte Konten behalten keinen Gerätestatus mehr.** Reste früherer Anonymisierungen räumt
+  `user:status:prune --force`.
+
+## [9.23.0] — 2026-10-09
+
+### Geändert
+
+- **Zusammenkunftsplan neu gestaltet (Blatt):** jeder Tag trägt sein Datum als Kalenderblatt und
+  liegt ohne Kasten auf der Seite, durch eine Blattkante getrennt; Uhrzeiten auch am Wochenende.
+- **Vorsitz und Bekanntmachung sind blaue Kacheln mit Pfeil** — sie laden zum Antippen ein.
+- **Anwesende zählen:** Fragezeichen-Symbol, solange nicht gezählt, danach die Zahl mit Haken.
+- **Einheitliche Knöpfe:** Bearbeiten, Löschen und Zeilenaktionen sind runde Symbole ohne Füllung,
+  Knöpfe im Seitenkopf stehen einzeln.
+- **Links in Tabellen sind unterstrichen.**
+- **Lieder und Lehrpunkte lädt die Versammlung selbst:** jeder, der Rahmendaten pflegt, nicht mehr
+  nur der Betreiber.
+- **„Gruppen" heißt jetzt „Predigtdienstgruppen"** in Menü, Startseite und Seitentitel.
+
+### Behoben
+
+- „Deine Aufgabe" ist auf Grün wieder gut lesbar.
+- Gebiet: Straßen-Aktionen, Ausgabe/Rückgabe-Karten und Kartenfarbe im Blatt stimmen wieder.
+- Die Löschfrage steht über dem Fenster, aus dem sie kommt; die schwebende Leiste bleibt einzeilig.
+- Das Blatt-Menü führt wieder zu Planungsgewichten und Titeln.
+
+## [9.22.1] — 2026-10-08
+
+### Behoben
+
+- **Neue Lieder kommen ohne neue Version an:** „Publikationen laden" nimmt auch Lied 164 ff.
+- **Das Arbeitsheft ist zwei Ausgaben im Voraus da**, im Oktober also schon Januar/Februar.
+- **Formulare sauberer:** Zeit und Tag gleich hoch, Uhrzeit und Datei-Feld auf dem Telefon ganz
+  lesbar, Auswahlknöpfe mit Abstand beim Umbruch.
+
+## [9.22.0] — 2026-10-07
+
+### Geändert
+
+- **Neu auf der Startseite: „Für dich".** Ganz oben steht, was neu ist und was zu tun ist —
+  mehrere Gebiete, Mitteilungen oder Trolley-Schichten liegen auf einem Stapel, und ist nichts da,
+  steht das auch.
+- **Jede Seite ist ein Blatt**, wie die Startseite: Der Brotkrumenpfad ist die erste Zeile, aus
+  Kästen werden Abschnitte mit Überschrift und Linie.
+- **Das Menü in „Blatt" ist nach Dingen geordnet.** Jeder Bereich endet mit „Einstellungen", ein
+  Gruppenname ist selbst ein Ziel, und Abwesenheit, Meine Gruppe, Aushang und Zoom-Einwahl stehen
+  jetzt auch dort.
+- **Favoriten wählst du mit dem Stern im Menü**, nicht mehr im Profil. Offenes zeigt „Aktuelles"
+  auch ohne Favorit.
+- **„Meine Ereignisse" zeigt wieder deine Woche** — höchstens fünf Zeilen, und darunter, wie viele
+  nicht hineinpassen.
+- **Mitteilungen verschwinden, sobald der Tag vorbei ist, um den es geht.**
+- **Neue Namen:** „Mitteilungen", „Veranstaltungen", „Eilmeldungen", „Abmelden" und „Hilfe" statt
+  „Benachrichtigungen", „Termine", „Neuigkeiten", „Logout" und „FAQ".
+- **Ein Termin für Diener oder Älteste zählt im Kalender-Abo zu „Meine eigenen Termine".**
+- **Die Bereichsleiste geht mit der Tastatur**, und drei Punkte zeigen vorher, dass eine Kachel ein
+  Fenster öffnet.
+- **Neue Konten bekommen „Alle Pläne" nicht mehr vorbelegt.** Wer sie gewählt hat, behält sie.
+
+### Behoben
+
+- **„Meine Abwesenheit" löscht wieder.**
+- **Der Kalender schiebt auf dem Telefon nicht mehr die ganze Seite**, nur noch die Liste.
+- **Sechs Kacheln, die ein Fenster öffnen, sind mit der Tastatur erreichbar.**
+- **Eine Mitteilung verschwindet erst, wenn das Speichern geklappt hat.**
+
+## [9.21.0] — 2026-10-06
+
+### Geändert
+
+- **„Blatt" hat oben nur noch eine Leiste:** Profil, Nachrichten und Abmelden stecken im Avatar
+  rechts, Feedback geben auch, und die Leiste bleibt beim Blättern stehen.
+- **„Blatt" ohne Seitenleiste:** Das Menü klappt aus der Leiste auf, alle Gruppen offen, mit Zählern
+  und markierter Seite; die Linie unten trägt die Farbe des Bereichs.
+- **Suche auf der Startseite:** ein Feld oben auf dem Blatt findet Menüs, Gebiete, Straßen und Benutzer.
+- **Startseite:** Verwaltung, Überwachung, weitere Apps und „Für unterwegs" stehen nebeneinander und
+  brechen auf kleinen Bildschirmen um. Logo und Name stehen jetzt im Fuß bei „Empfehle sie weiter".
+
+### Behoben
+
+- **„Blatt":** Datumsfelder und Auswahlfelder sind gleich hoch, der Zurücksetzen-Knopf der Suche
+  auch. Umrandete Knöpfe behalten beim Darüberfahren ihre Schrift. Der Aushang lädt über einen
+  Symbolknopf. Im dunklen Design sind Eingabefelder, Menüs und Dialoge neutral statt bläulich.
+
+## [9.20.0] — 2026-10-05
+
+### Geändert
+
+- **Größere Schrift: 15 statt 14 Pixel.** Kleingedrucktes ist nirgends mehr kleiner als 14 Pixel.
+  Unter Profil → Anzeige gibt es neu die Stufe **Sehr groß**; eine gewählte Stufe bleibt erhalten.
+- **Neuer Anstrich in „Blatt":** dunkle Schrift auf dem Grün der Gebiete, runde Knöpfe, größere
+  Felder, weichere Schatten, aufgehellte Farben im dunklen Design. „Kacheln" bleibt, wie es war.
+- **Hover, Fokus und Druck** sind in beiden Oberflächen überall sichtbar (Knöpfe, Zeilen, Menüs, Reiter).
+- **Startseite: „Meine Ereignisse" zeigt wieder die nächsten drei Einträge** statt einer ganzen Woche.
+- **Neu auf der Startseite: deine Benachrichtigungen.** Ganz oben, höchstens drei, jede in einer
+  Zeile. Ein Druck zeigt die ganze Nachricht mit Absender und Zeitpunkt; von dort kommst du mit
+  „Anzeigen" zu der Sache, um die es geht. Das ✕ räumt eine Zeile weg, ohne hinzugehen. Nur
+  hinsehen zählt nicht — die Startseite zu öffnen ändert nichts daran, was ungelesen ist.
+- **Benachrichtigungen verschwinden, sobald der Tag vorbei ist, um den es geht.** Eine Nachricht
+  über eine Trolley-Schicht am 2. Juni sagt im Juli niemandem mehr etwas. Damit ist auch der
+  Rückstand weg, der sich hinter der roten Zahl angesammelt hatte.
+- **„Eine Woche ausblenden" gilt jetzt für ein Gebiet statt für alle.** Der Knopf heißt „In einer
+  Woche erinnern" und steht im Fenster des Gebiets, um das es geht. Vorher war es eine Zeile unter
+  der Liste, die alle Gebietshinweise auf einmal stillgelegt hat.
+
+### Behoben
+
+- **Kopfleiste:** Logo und Text stehen auf einer Linie, der Nachrichtenzähler deckt den Umschlag nicht mehr zu.
+- **Favoriten sortieren:** kleinere Kacheln, „Auf der Startseite" und „Ablage" klar getrennt.
+- **Tabelle der Benachrichtigungen** läuft nicht mehr aus ihrem Kasten.
+- **Ausgeschaltete Schalter und Kontrollkästchen** sind im hellen Design gut zu sehen.
+- **Dunkles Design:** Bereichsfarben sind lesbar. **Gebietsauswahl** passt auf schmale Bildschirme.
+- **Screenreader:** Knöpfe mit nur einem Symbol haben einen Namen, Hinweise werden vorgelesen.
+- **Feiertag, Benachrichtigung und Trolley-Kalender löschen** fragt vorher nach.
+- **Die Stammseiten für unterwegs wurden nur geladen, wenn man die Startseite öffnete.** Wer sie
+  selten aufgerufen hat, bekam sie nie — obwohl im Profil „immer" stand. Sie laden jetzt auf jeder
+  Seite. Das betrifft beide Oberflächen.
+- **Hinweise und Mitteilungen zu einem Gebiet oder einer Schicht** führten in eine Liste statt an
+  die Stelle, um die es ging.
+
+## [9.19.0] — 2026-10-03
+
+### Geändert
+
+- **Zwei Oberflächen zur Wahl: „Kacheln" und „Blatt".** Das Feld steht unter Profil → Ansicht.
+  **Kacheln** ist die bekannte Oberfläche und bleibt vorerst die Vorgabe. **Blatt** ist neu (Beta):
+  Bereiche als Reiter oben, Inhalt auf Lesebreite, überarbeitete Startseite. Wer nicht zurechtkommt,
+  stellt im selben Feld zurück.
+- **Startseite in „Blatt":** „Offene Aktionen" (Hinweise) und „Meine Ereignisse" (nächste 7 Tage)
+  stehen oben, was heute ansteht auf den Kacheln der Bereiche. Favoriten sind Zeilen, groß wird eine
+  Kachel nur, solange etwas offen ist. Der Aushang ist eine Kachel, kein eigener Kasten mehr.
+- **Hinweise zu überfälligen Gebieten lassen sich eine Woche ausblenden**; danach kommen sie von
+  selbst wieder.
+- **„Bearbeitung aktualisieren" läuft in einem Fenster auf der Startseite.** Es zeigt Gebiet und
+  Karte und fragt vor dem Eintragen nach, weil es sich nicht zurücknehmen lässt.
+- **Dialoge der Startseite** (privater Termin, Bericht, Trolley-Abgaben) führen danach zur
+  Startseite zurück.
+
+### Behoben
+
+- **Hinweis zu überfälligem Gebiet** führte in die Gebietsliste; er führt jetzt ins Gebiet, direkt
+  auf „Bearbeitung".
+- **„Treffpunkt-Anwesende eintragen" endete mit Fehler 405.** Der Hinweis erscheint nur noch, wer
+  die Zahl eintragen darf.
+- **Notizbuch zeigte den falschen Monat**: Auf der Startseite stand der letzte Monat mit Einträgen
+  statt des laufenden.
+
+## [9.18.0] — 2026-10-03
+
+### Geändert
+
+- Dein Dienst und Abwesenheiten stehen in Plänen und Dienstliste als Pille am Namen. Wer fehlt, hat
+  zusätzlich ein Symbol.
+
+## [9.17.0] — 2026-10-01
+
+### Neu
+
+- Die **Aktionsleiste** unten (Zurück, Neu laden, Teilen, Start) lässt sich pro Gerät ausschalten:
+  Profil › Geräte. Gedacht für sehr kleine Bildschirme und Android-Geräte mit eigener Leiste unten.
+
+### Geändert
+
+- Trolley › Teilnehmer zeigt jetzt alle Trolley-Teilnehmer der Versammlungen deines Ortes – für die
+  Suche nach einem Partner. Personen ohne Trolley-Zugang erscheinen dort nicht mehr.
+
+### Behoben
+
+- Trolley-Statistik: Ansicht (Monat, Quartal …) und Versammlung lassen sich kombinieren; der eine
+  Filter hebt den anderen nicht mehr auf.
+- Trolley › Teilnehmer verwalten: Der Betreiber sieht mit „Alle" wieder alle Versammlungen. Der
+  Trolley-Koordinator sieht nur noch seine eigene Versammlung, die Auswahl entfällt für ihn.
+
+## [9.16.1] — 2026-09-30
+
+### Behoben
+
+- Abwesenheiten: Eine Suche nach Datum ohne Treffer zeigt jetzt „Keine Ergebnisse" statt der ganzen
+  Liste. Die Datumsfelder starten leer, damit nur ein gewähltes Datum filtert.
+- Treffpunkt anlegen: Treffpunkt-Leiter und Treffpunkt Technik lassen sich wieder auswählen; die
+  Listen blieben leer.
+- Treffpunkte: Nach Speichern, Anlegen, Löschen oder Besucher melden bleibt die gewählte Gruppe
+  stehen, statt auf „Alle Gruppen" zu springen.
+
+## [9.16.0] — 2026-09-29
+
+### Neu
+
+- **Aufgaben verteilen** (Verwaltung → Berechtigungen, auch Schritt 5 der Ersteinrichtung): wer tut
+  was in der Versammlung und in jeder Gruppe.
+- **Importvorlage** (Excel) für Gruppen und Personen. Erkannte Spalten gehen direkt zur Vorschau.
+- Ersteinrichtung: Den Ort wählst oder legst du selbst an.
+- **Gebiet ohne Karte**: Offline zeigt die Gebietsseite das Gebietsbild statt einer leeren Karte.
+- **„Mein Bericht" ist dein Notizbuch**: eine Seite, dort gibst du den Bericht auch ab – oder direkt
+  von der Startseite.
+
+### Geändert
+
+- Der Personen-Import liest die **Ernennung** statt der Aufgabe. Neue Dienstamtgehilfen und Älteste
+  bekommen die üblichen Einteilungs-Marken vorbelegt.
+- **Keine Bericht-Erinnerungen per Mail mehr.** Offene Berichte stehen auf Kachel und Startseite;
+  der Sekretär sieht den offenen Monat ab dem 15.
+- Ersteinrichtung mit sieben, Trolley-Einrichtung mit drei Schritten.
+
+### Behoben
+
+- Mit ausgeschalteter Selbstabgabe lässt sich kein Bericht mehr über einen alten Link abgeben.
+- Ein unvollständiger Bericht wird in der Monatsliste nicht mehr grün.
+
 ## [9.15.0] — 2026-09-28
 
 ### ⚠️ Umstellung nötig

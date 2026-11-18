@@ -108,7 +108,7 @@ ausstellen könnte.
 ### 5. Die Betriebswerte prüfen
 
 Nach dem Betreiberkonto übergibt `/commissioning` an **`/system/settings`**, _bevor_ die
-Ersteinrichtung der Versammlung beginnt. Dort stehen zehn Werte, die vorher nur per SSH in die
+Ersteinrichtung der Versammlung beginnt. Dort stehen die Werte, die vorher nur per SSH in die
 `.env` zu tippen waren:
 
 | Was                                                           | Schlüssel                         |
@@ -167,6 +167,28 @@ sudo systemctl enable --now vapp-backup.timer
 Aufbewahren und hält 31 Tage vor. Wiederherstellen: `./restore.sh` (fragt nach einer getippten
 Bestätigung).
 
+### Sicherung im Browser — für den Umzug und den Notfall
+
+Unter **System → Sicherung** (`/system/backup`) lädt der Betreiber die ganze Anlage als **eine**
+Datei herunter, verschlüsselt mit einem Passwort, das er dabei wählt. Darin stecken der Dump, die
+hochgeladenen Dateien und die Datenschlüssel der Anlage — `NOTES_ENCRYPTION_KEY` eingeschlossen.
+Mail-Zugang, Domain, VAPID und alle anderen Zugangsdaten stehen **nicht** darin; die neue Anlage
+behält ihre eigenen.
+
+Auf einer **neuen, leeren** Anlage (Schritte 1 bis 3 erledigt) spielt sie ein:
+
+```bash
+./restore.sh vapp-backup-2026-10-20.vapp-backup
+```
+
+Das Skript fragt nach dem Passwort, schreibt die Datenschlüssel in die `.env.local` (und fragt, bevor
+es einen abweichenden Wert ersetzt), legt die Datenbank neu an und führt die Migrationen aus — der
+alte Stand passt danach zur neuen Version. Eine Anlage, die schon Konten hat, lehnt es ab; wer sie
+bewusst ersetzen will, gibt `--fresh` mit.
+
+**Notfallzugang.** Auf derselben Seite gibt der Betreiber einer zweiten Person das Recht, **nur**
+diese Sicherung zu laden — für den Tag, an dem er selbst nicht erreichbar ist.
+
 ## Demo Daten
 
 ### Versammlung, Personen und Pläne anlegen
@@ -174,6 +196,10 @@ Bestätigung).
 ```bash
 docker compose exec php bin/console app:demo:seed
 ```
+
+Der Befehl legt eine erfundene Versammlung an — dieselbe wie in der Live-Demo auf
+[demo.rbnet.me](https://demo.rbnet.me). Steht sie schon, fragt er, ob er ihr Zeitfenster auf heute verschieben soll; was dabei neu
+geschrieben wird, geht verloren.
 
 ### Daten entfernen
 

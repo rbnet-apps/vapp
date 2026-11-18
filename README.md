@@ -1,63 +1,88 @@
 <div align="center">
 
-<!-- BILD: bilder/logo.png — public/new_logo.png auf ~160 px verkleinert -->
+<img src="bilder/logo.png" width="96" alt="VAPP-Logo">
 
 # VAPP - die Versammlungs-App
 
 **Alles, was eine Versammlung braucht**
 
-Zusammenkünfte, Gebiete, Trolley und Berichte — geplant in einer Anwendung, die auf eurem eigenen Server liegt.
+Zusammenkünfte, Predigtdienst, Trolley, Saal und Berichte — geplant in einer Anwendung, die auf
+eurem eigenen Server liegt.
 
 ![Lizenz](https://img.shields.io/badge/Lizenz-PolyForm_Noncommercial_1.0.0-0b7285)
 ![Plattform](https://img.shields.io/badge/Plattform-amd64%20%C2%B7%20arm64-495057)
 ![Technik](https://img.shields.io/badge/Symfony_8.1-PHP_8.5-6741d9)
 ![Betrieb](https://img.shields.io/badge/Betrieb-selbst%20gehostet-2b8a3e)
+[![Live-Demo](https://img.shields.io/badge/Live--Demo-demo.rbnet.me-1c7ed6)](https://demo.rbnet.me)
+
+### [▶ Live-Demo ausprobieren — ohne Konto, ohne Anmeldung](https://demo.rbnet.me)
+
+![VAPP am Rechner und am Handy: Startseite des Planers mit „Für dich“ und „Meine Termine“, daneben die Startseite eines Verkündigers](bilder/titel.png)
 
 </div>
 
 ## Auf einen Blick
 
-**VAPP ist die zentrale Anlaufstelle einer Versammlung.** Perfekt für Planer — Zusammenkünfte,
+**VAPP ist die zentrale Anlaufstelle einer Versammlung.** Wer plant, plant hier — Zusammenkünfte,
 Gebiete, Trolley, Saal und Berichte. Wer eingeplant ist, sieht hier, was ansteht — auf dem Handy,
 auch ohne Netz. Statt Zetteln, Aushängen und verteilten Tabellen gibt es einen Stand, digital und
 immer aktuell. Und er gehört der Versammlung: VAPP läuft auf eurem eigenen Server und nirgendwo sonst.
 
 - 🗓️ **Zusammenkünfte in Minuten** — Arbeitsheft und Wachtturm als ePub einlesen, Aufgaben mit
-  vorsortierten intelligenten Vorschlägen besetzen.
-- 🗺️ **Gebiete digital** — Grenzen auf der Karte zeichnen, Personen zuweisen oder per QR-Code teilen, Karte
-  als PDF.
-- 🛒 **Trolley zum Selberbuchen** — Routen, Schichten und Statistik, ohne Listen zu führen.
-- 📊 **Predigtdienstbericht in der App** — abgeben, erinnern, nachtragen; der Sekretär hat die
-  Zahlen für jw.org fertig. Verschlüsselt und nach kurzer Zeit gelöscht.
+  vorsortierten Vorschlägen besetzen, Ersatz im Gespräch finden.
+- 🙋 **Jeder weiß, was ansteht** — „Für dich“ zeigt, was jetzt zu tun ist; „Meine“ zeigt die
+  eigenen Aufgaben über alle Pläne.
+- 🗺️ **Gebiete digital** — Grenzen auf der Karte zeichnen, zuteilen oder selbst übernehmen, per
+  QR-Code teilen, Karte als PDF.
+- 🛒 **Trolley zum Selberbuchen** — Routen, Schichten, Bestückung, Team und Statistik.
+- 📊 **Predigtdienstbericht in der App** — Notizbuch führen, abgeben, erinnern, nachtragen; der
+  Sekretär hat die Zahlen für jw.org fertig. Verschlüsselt und nach kurzer Zeit gelöscht.
+- 🏛️ **Saal im Griff** — Reinigung, Müllkalender, Raumbelegung, Instandhaltung mit Arbeitsblättern
+  und Mängelmeldung per Foto.
 - 📶 **Unterwegs auch offline** — Plan, eigene Gebiete samt Karte, Trolley und Kalender liegen auf
   dem Gerät, bevor der Empfang weg ist.
-- 🔔 **Nichts verpassen** — Push, E-Mail, Eilmeldungen und Kalender-Abo.
-- 🔐 **Eure Daten, euer Server** — Anmeldung per Passkey, Rechte nach Vorrechten und Aufgaben, kein
-  Dienst dazwischen.
-
-<!-- BILD: bilder/zusammenkuenfte.png — eine geplante Woche im Zeitplan, Aufgaben besetzt -->
+- 🔐 **Eure Daten, euer Server** — Anmeldung per Passkey, Rechte aus Status und Aufgaben, Sicherung
+  per Knopfdruck, kein Dienst dazwischen.
 
 > **English:** VAPP is a self-hosted **congregation management app for Jehovah's Witnesses** —
-> Life and Ministry meeting scheduler with EPUB workbook import, weekend meeting and attendant
-> schedules, territory maps and assignments, public witnessing cart scheduling, monthly field
-> service reports, cleaning and hall schedules. Installable PWA with offline mode, push
-> notifications, calendar feeds and passkey login. The interface ships in German, English, Greek
-> and Russian; this page and the setup guide are German. Docker images
+> Life and Ministry meeting scheduler with EPUB workbook and Watchtower import, weekend meeting,
+> public talk and attendant schedules, substitute requests, territory maps with self check-out,
+> public witnessing cart scheduling, field service groups, monthly field service reports, cleaning,
+> maintenance and Kingdom Hall schedules with defect tickets. Installable PWA with offline mode,
+> push notifications, calendar feeds and passkey login. The interface ships in five languages,
+> among them German, English, Greek and Russian; this page and the setup guide are German. Try the
+> **[live demo](https://demo.rbnet.me)** without an account. Docker images
 > `ghcr.io/rbnet-apps/vapp-app` and `…/vapp-web` for `linux/amd64` and `linux/arm64`. Not an
 > official tool of the organization.
+
+## Live-Demo
+
+Auf **[demo.rbnet.me](https://demo.rbnet.me)** steht eine erfundene Versammlung, die sich alle
+Besucher teilen — ohne Konto und ohne Anmeldung.
+
+- **Zwei Rollen zum Wechseln:** Oben über „Testmodus“ wechselst du zwischen **Verwalter** und
+  **Verkündiger**.
+- **Alles ausprobieren:** Zusammenkünfte und Predigtdienst planen, Trolley-Schichten eintragen,
+  Gebiete anfordern, den Bericht abgeben, Abwesenheit eintragen, Tickets melden, den Aushang lesen.
+- **Regelmäßig frisch:** Die Daten werden regelmäßig zurückgesetzt; wann, zeigt die
+  Testanlage oben. Passwort, Einladungen, Uploads, Mail und Push sind gesperrt.
 
 ## In zwanzig Minuten ist die Versammlung erstellt
 
 Kein Konto bei irgendwem, keine Anmeldung, kein Vertrag. Ein Rechner mit Docker, ein Befehl, der die
 Dateien holt, ein Einrichtungsskript, das alles Benötigte abfragt und **jeden Schlüssel selbst
-erzeugt** — danach führt ein Assistent durch die Ersteinrichtung: Versammlung, Zusammenkunftszeiten,
-Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank funktioniert.
+erzeugt** — danach führt ein Assistent Schritt für Schritt durch die Ersteinrichtung: Versammlung,
+Zusammenkunftszeiten, Personen und Gruppen, Bereiche, Helfer und Zugänge. Niemand muss vorher
+wissen, wie Docker oder eine Datenbank funktioniert.
 
 ## Für wen
 
 - **Selbstverwaltung, Datenhoheit.** Eine Versammlung, die ihre Planung selbst in der Hand behalten will.
-- **Planer**: Koordinator, Dienstaufseher, Gebietsdiener, Trolley-Verantwortliche.
-- **Alle anderen**, die schauen, wann sie eingeplant sind, ihr Gebiet bearbeiten wollen oder Trolleydienst eintragen — als WebApp installiert, mit Benachrichtigung und Kalender-Abo
+- **Planer**: Koordinator, Sekretär, Dienstaufseher, Leben-und-Dienst-Aufseher, Gebietsdiener,
+  Vortragsplaner, Trolley-Koordinator, Instandhaltung.
+- **Alle anderen**, die schauen, wann sie eingeplant sind, ihr Gebiet bearbeiten, Trolleydienst
+  eintragen oder ihren Bericht abgeben — als WebApp installiert, mit Benachrichtigung und
+  Kalender-Abo.
 
 **Wofür nicht:** VAPP ist **kein offizielles Werkzeug der Organisation** und ersetzt keins.
 
@@ -65,158 +90,283 @@ Personen, Bereiche. Niemand muss vorher wissen, wie Docker oder eine Datenbank f
 
 Wer schon eine Versammlungs-App wie **NW Scheduler / NW Publisher**, **Hourglass**, **TheocBase**,
 **Organized** oder **Meeting Schedule Assistant** kennt: VAPP deckt dieselben Aufgaben ab —
-Zusammenkünfte, Gebiete, Trolley, Berichte — in **einer** Anwendung. Der Unterschied: sie läuft
-**auf eurem eigenen Server**, nicht auf einem einzelnen PC und nicht bei einem fremden Anbieter.
+Zusammenkünfte, Gebiete, Trolley, Berichte — und dazu Saal und Instandhaltung, in **einer**
+Anwendung. Der Unterschied: sie läuft **auf eurem eigenen Server**, nicht auf einem einzelnen PC
+und nicht bei einem fremden Anbieter.
 
-## Was die VAPP kann
+## Was die VAPP kann — entlang der Abläufe einer Versammlung
 
-### 🔐 Eigener Betrieb, eigene Daten
+### 🗓️ Zusammenkünfte vorbereiten
 
-**Selbst gehostet**
+Vom Arbeitsheft bis zum Aushang: der Ablauf, den der Leben-und-Dienst-Aufseher, der Vortragsplaner
+und der Ordnungsdienst jede Woche durchlaufen.
 
-- Die Anwendung läuft bei dir auf einem Rechner, bei einem Bruder der Versammlung oder einem beliebigen Server. Es gibt keinen kostenpflichtigen Dienst dazwischen, der mitliest, und keine Rechnung.
+**Arbeitsheft und Wachtturm einlesen**
 
-**Anmeldung mit Passkey**
+- Das ePub wird eingelesen und legt die Zusammenkünfte an — Lieder, Themen und Programmteile
+  inklusive. Es bleibt nur noch, die Aufgaben zu besetzen.
+- Liegt eine neue Zusammenkunft in einem belegten Raum, warnt der Import.
 
-- Fingerabdruck, Gesicht oder Geräte-PIN statt Passwort. Den ersten Zugang
-  bekommt jeder als Einladung auf einem Zettel — ein QR-Code, der einmal gilt.
+**Aufgaben besetzen mit vorsortierten Vorschlägen**
 
-**Jeder sieht, was er braucht**
+- Oben steht, wer lange nicht dran war und für diese Aufgabe freigegeben ist. Jede Person zeigt
+  ihren letzten und nächsten Einsatz in Wochen.
+- Wer abwesend ist oder schon zu viel hat, ist markiert. Auf Wunsch stehen alle für alle Aufgaben
+  zur Wahl.
+- Der Ordnungsdienst lässt sich automatisch planen — nach Verfügbarkeit und Häufigkeit der letzten
+  Dienste.
 
-- Berechtigungen hängen an Vorrechten und Aufgaben und lassen sich individuell anpassen.
+<p align="center">
+  <img src="bilder/ablauf-planung.gif" width="820" alt="Planung der Woche: ein Klick auf eine Aufgabe zeigt die Vorschläge, sortiert nach letztem und nächstem Einsatz">
+</p>
 
-<!-- BILD: bilder/berechtigungen.png — Berechtigungsmatrix einer Person, Vorlage und Abweichung -->
+**Öffentliche Vorträge und Gastredner**
 
-### 🗓️ Zusammenkünfte planen
+- Eingehende und auswärtige Redner an einem Ort. Jeder, der den Plan sieht, liest die kommenden
+  Gastredner als Liste.
+- Je Termin hält der Vortragsplaner fest, ob der Gastredner einen Gastgeber sucht und ob einer
+  gefunden ist.
 
-**Arbeitsheft/Wachtturm-Import**
+**Dienstwoche des Kreisaufsehers**
 
-- Das ePub wird eingelesen und legt die Zusammenkünfte an. Lieder, Themen und Programmteile werden automatisch erstellt.
-- Es muss nur noch die Planung der Aufgaben erfolgen.
+- Ein Eintrag im Plan genügt: die App markiert jede Zusammenkunft der Woche und erstellt das
+  Programm als Seite, als Heft zum Drucken und als Knopf auf der Startseite.
 
-**Planungsassistent**
+**Zähldienst, Aushang, Ausdrucke**
 
-- Der Ordnungsdienstplan kann automatisiert erstellt werden.
-- Die Planung erfolgt basierend auf der Verfügbarkeit der Personen und Häufigkeit der letzten Dienste.
+- Der zuständige Dienst wird ans Zählen der Anwesenden erinnert, bis alle Zahlen erfasst sind.
+- Alle PDFs in einem Stil: durchsuchbar, schwarz-weiß-tauglich, mit Versammlung und Stand im Kopf —
+  der Versammlungsplan eine Woche je Blatt.
+- Die Aufgabenübersicht passt auf eine Seite: wer welche Aufgabe hat und wofür man ihn anspricht.
 
-**Vorsortierte Vorschläge**
+<p align="center">
+  <img src="bilder/plan.png" width="820" alt="Versammlungsplan am Rechner mit Programm und Ordnungsdienst">
+</p>
 
-- Oben steht, wer lange nicht dran war und für diese Aufgabe freigegeben ist.
-- Die Auswahl kennt den letzten und den nächsten Einsatz jeder Person und zeigt es direkt mit an.
+### 🙋 Eingeplant sein — für jeden in der Versammlung
 
-### 🗺️ Gebiete
+Wer eine Aufgabe hat, muss nicht suchen: die App sagt es ihm.
 
-**Karten erstellen**
+**„Für dich“ und „Meine“**
 
-- Gebietsgrenzen werden im Kartenwerkzeug gezeichnet. Es wird kein separates Grafikprogramm benötigt. Als Online-Ansicht oder Druck per PDF als Gebietskarte.
-- Wähle zwischen Kartenanbietern wie OpenStreetMap (weltweit) oder das Bundesamt für Kartographie und Geodäsie (Deutschland).
+- „Für dich“ zeigt nur, was du jetzt tun musst — Bericht abgeben, Ersatz gesucht, Treffpunkt
+  übernehmen. Eine Zeile nach links wischen stellt sie auf morgen, eine Woche oder die nächste
+  Zusammenkunft zurück.
+- „Meine“ zeigt über dem Plan alle eigenen Aufgaben nach Datum. Ein Abend, an dem du abwesend bist,
+  ist orange markiert.
 
-**Gebiet teilen**
+**Ersatz finden im Gespräch**
 
-- Scanne den QR-Code des Gebiets und teile es temporär mit deiner Gruppe. Einfache und sichere Freigabe für eine gemeinsame Bearbeitung.
-- Jeder kann optional seinen eigenen Standort in der Gebietskarte anzeigen lassen.
+- Wer verhindert ist, fragt gezielt nach Ersatz. Nachrichten und Verlauf stehen an einem Ort, die
+  Planer lesen mit.
+- Ist der Ersatz übernommen, danken Fragender und Planer mit eigenen Worten.
 
-**Eigenständige Bearbeitung**
+**Termine, Abwesenheit, Erinnerungen**
 
-- Eigenes Gebiet anzeigen, Adressen eintragen oder die Bearbeitung aktualisieren.
-- Optional — es geht auch alles über den Gebietsdiener. Einfach per Parameter einstellen.
+- „Meine Termine“ sammelt alles im Kalender; das **Kalender-Abo** bringt es in die Kalender-App
+  von Handy oder Computer.
+- Abwesenheit einmal eintragen — die Planung berücksichtigt sie sofort.
+- Private Termine und Erinnerungen, auch wiederkehrend oder vor der Zusammenkunft; das Telefon
+  erinnert, wann du willst.
 
-**Dienstwochen mit allem, was dazugehört**
+<p align="center">
+  <img src="bilder/handy-plan-meine.png" width="260" alt="Versammlungsplan am Handy, Ansicht „Meine“ mit den eigenen Aufgaben">
+  &nbsp;
+  <img src="bilder/handy-plan-dunkel.png" width="260" alt="Versammlungsplan am Handy im dunklen Modus">
+</p>
 
-- Die besondere Woche wird als Ganzes geplant, samt der
-  Ausdrucke, die benötigt werden.
-- Planung der verfügbaren Gebiete, benötigte Ausdrucke und eine Übersichtkarte - alles in einer eigenen Ansicht.
+### 🗺️ Predigtdienst
 
-<!-- BILD: bilder/gebietskarte.png — Gebietskarte mit gezeichneter Grenze und Anschriftenliste -->
+**Gebiete**
 
-### 🏛️ Rund um den Saal
+- Gebietsgrenzen werden im Kartenwerkzeug gezeichnet — kein Grafikprogramm nötig. Als
+  Online-Ansicht oder als Gebietskarte im PDF.
+- Kartenanbieter wählbar: OpenStreetMap (weltweit) oder Bundesamt für Kartographie und Geodäsie
+  (Deutschland).
+- „Meine“, „Freie“ und „Alle“ auf einen Blick. Verkündiger nehmen sich ein freies Gebiet selbst und
+  geben es zurück, auch unfertig — wenn der Gebietsdiener das einschaltet.
+- Ein Gebiet per QR-Code zeitweise mit der Gruppe teilen. Optional zeigt die Karte den eigenen
+  Standort.
+- Dienstwochen als Ganzes planen: verfügbare Gebiete, Ausdrucke und Übersichtskarte in einer Ansicht.
 
-**Abwesenheitsplan**
+**Treffpunkte**
 
-- Wer abwesend ist, trägt es ein; die Planungsassistenten berücksichtigen es direkt bei den Vorschlägen.
+- Treffpunkte im Kalender, mit PDF zum Aushängen.
+- „Treffpunkt-Leiter gesucht“: offene Treffpunkte der nächsten 14 Tage stehen unter „Für dich“;
+  wer zuerst „Ich übernehme“ tippt, leitet.
 
-**Raumbelegung, Reinigung, Instandhaltung**
+**Predigtdienstgruppen**
 
-- Haupt-, Zwischen- und Übergabereinigung
-- wer welchen Raum wann belegt
-- digitale Arbeitsblätter für die Instandhaltung
-- und vieles mehr
+- „Meine“ zeigt die eigene Gruppe mit Abhakliste, „Alle“ jede Gruppe. Die Gruppeneinteilung wird
+  gedruckt und lässt sich direkt bearbeiten.
+- Auch Namen ohne eigenes Konto, etwa Kinder, stehen in der Gruppe.
 
-**Geteilter Saal, geteilter Plan**
+**Literaturangebot**
 
-- Versammlungen, die sich einen Saal teilen, treten einer Versammlungs-Gruppe bei und stellen Reinigungspläne, Treffpunkte und allgemeine Termine versammlungsübergreifend bereit.
+- Der Literaturdiener legt je Monat fest, welche Schriften die Versammlung anbietet — als Plakat im
+  Aushang und als erste Auswahl am Trolley.
 
-<!-- BILD: bilder/raumplan.png — Raumbelegung oder Reinigungsplan über mehrere Wochen -->
+<p align="center">
+  <img src="bilder/handy-gebiete.png" width="260" alt="Eigene Gebiete am Handy mit Gebietsbild">
+  &nbsp;
+  <img src="bilder/handy-gruppe.png" width="260" alt="Die eigene Predigtdienstgruppe am Handy">
+</p>
 
-### 🛒 Trolley-Planung
+### 🛒 Trolley
 
-**Eigene Routen und Standorte**
+**Selbst buchen**
 
-- Schichten und Zeiten werden einmal eingerichtet und laufen danach von selbst weiter
-- optional können Abgaben pro Schicht eingetragen werden
+- Schichten und Zeiten werden einmal eingerichtet und laufen danach von selbst weiter.
+- Wer freigegeben ist, bucht seine Schicht selbst. „Meine“ zeigt nur die eigenen Schichten und mit
+  wem du vorher und danach eingeteilt bist; jeder Tag klappt auf und zeigt freie Plätze.
 
-**Selbständige Planung**
+<p align="center">
+  <img src="bilder/ablauf-trolley.gif" width="300" alt="Trolley-Schicht am Handy buchen: Plus tippen, Partner wählen, speichern">
+  &nbsp;
+  <img src="bilder/handy-trolley.png" width="260" alt="Trolley-Kalender am Handy">
+</p>
 
-- Wer freigegeben wurde, bucht seine Schicht selbst — die Verantwortlichen sehen den Stand, statt Listen zu führen.
+**Bestückung und Team**
+
+- Beim Wechsel zeigt der Dialog den Trolley als Zeichnung, bietet die letzten Bestückungen als
+  Vorlage an und listet Plakate und Schriften mit Bild — Plakate je Sprache.
+- Das Trolley-Team verwaltet Routen und Ausrüstung, zwei Fotos je Route inklusive.
+- „Etwas melden“ im Kalender: Schäden an Trolley oder Stand landen als Ticket beim Team.
 
 **Statistik**
 
-- Verschaffe dir schnell einen Überblick, welche Route wie oft gebucht wird, welche Zeiten besonders gefragt sind oder in welchen Sprachen Abgaben erfolgen.
-
-<!-- ![Der Trolley-Kalender mit Bereichswechsler und Bereichsmenü](https://raw.githubusercontent.com/rbnet-apps/vapp/main/media/trolley-calendar.png) -->
+- Welche Route wie oft gebucht wird, welche Zeiten gefragt sind, in welchen Sprachen Abgaben
+  erfolgen — nach Monat, Quartal und Versammlung.
 
 ### 📊 Berichte
 
-**Predigtdienstbericht jeden Monat**
+**Mein Bericht ist das Notizbuch**
 
-- Die Versammlung schaltet den Bericht ein — ab diesem Monat wird gefragt. Ein Monat ohne Tätigkeit
-  ist auch ein Bericht.
-- Selbst abgeben oder abgeben lassen: Ist die Selbstabgabe an, trägt jeder selbst ein. Sonst tragen
-  Gruppenaufseher und Sekretär ein.
-- Wer das Notizbuch führt, holt dessen Zahlen mit einem Knopf in den Bericht.
-- Fehlt ein Bericht, erinnert die App am 3. und am 10. des Monats.
+- Stunden, Rückbesuche und Studien laufend notieren, mit Monatsziel und Diagramm der Dienstjahre.
+- Abgeben mit einem Knopf, auch direkt von der Startseite. Die Zahlen aus dem Notizbuch kommen mit
+  einem Tipp in den Bericht. Ein Monat ohne Tätigkeit ist auch ein Bericht.
+
+<p align="center">
+  <img src="bilder/ablauf-bericht.gif" width="300" alt="Bericht am Handy abgeben: Zahlen aus dem Notizbuch holen, abgeben">
+  &nbsp;
+  <img src="bilder/handy-bericht.png" width="260" alt="Mein Bericht am Handy mit Monaten und Fortschritt">
+</p>
 
 **Gruppenaufseher und Gehilfe**
 
 - Sehen, wer aus der Gruppe noch fehlt — auch als Zahl auf der Kachel.
-- Erinnern mit einem Klick, tragen Meldungen auf Papier oder per Telefon im Dialog nach und laden
-  die Gruppe als Excel.
+- Erinnern mit einem Klick, Meldungen auf Papier oder per Telefon im Dialog nachtragen, die Gruppe
+  als Excel laden.
+
+<p align="center">
+  <img src="bilder/bericht-gruppe.png" width="820" alt="Berichte der Predigtdienstgruppe mit den letzten sechs Monaten je Person">
+</p>
 
 **Sekretär**
 
 - Sieht die ganze Versammlung nach Gruppen: offene Berichte, Gruppen ohne Aufseher, Personen ohne
-  Gruppe.
-- Bekommt die Zahlen für jw.org in der Reihenfolge des Formulars, bestätigt die Eingabe und erfährt
-  von späteren Änderungen.
-- Eine geführte Einrichtung zeigt Schritt für Schritt, was fehlt: Sekretär, Gruppenaufseher,
-  Pionierliste, Selbstabgabe.
+  Gruppe — mit Suche nach Namen.
+- Bekommt die Zahlen für jw.org in der Reihenfolge des Formulars, markiert sie als eingegeben und
+  erfährt von späteren Änderungen.
+- Pioniere werden einmal mit Beginn und Ende eingetragen. Vormonate lassen sich im ersten halben
+  Jahr nachtragen.
+- Selbstabgabe an oder aus: entweder trägt jeder selbst ein, oder Gruppenaufseher und Sekretär.
 
 **Datenschutz eingebaut**
 
 - Zahlen und Bemerkung liegen verschlüsselt in der Datenbank.
 - Nichts wird aufbewahrt: Stunden, Studien und Bemerkung sind nach drei Monaten gelöscht, der Rest
   nach acht.
-- Die App bewertet niemanden — kein „regelmäßig" oder „untätig", nur die letzten sechs Monate als
+- Die App bewertet niemanden — kein „regelmäßig“ oder „untätig“, nur die letzten sechs Monate als
   Kästchen.
 
-<!-- BILD: bilder/bericht.png — Übersicht des Sekretärs mit Gruppen und offenen Berichten -->
+### 🏛️ Rund um den Saal
 
-### 📣 Kommunikation und Überblick
+**Reinigung und Müllkalender**
 
-**Push und E-Mail**
+- Haupt-, Zwischen- und Übergabereinigung für alle Gruppen geplant.
+- Die Leerungen des Entsorgers stehen im Reinigungskalender; um 18 Uhr sagt ein Push, welche Tonnen
+  raus- oder reinmüssen.
 
-- Beides optional im eigenen Profil einstellbar.
-- Benachrichtigt wird nur, wen es jeweils betrifft.
+**Instandhaltung**
+
+- Pro Monat plant das Komitee eine oder zwei Gruppen mit Zieltag; das Jahr gibt es als PDF.
+- Arbeitsblätter werden im Auftrag als Checkliste abgehakt. Jedes Blatt kennt seine Historie.
+- Erledigt? Aufseher und Gehilfe der Gruppe melden es mit einem Tipp.
+
+<p align="center">
+  <img src="bilder/instandhaltung.png" width="820" alt="Arbeitsblätter der Instandhaltung mit Fälligkeit und PDF">
+</p>
+
+**Saal-Tickets**
+
+- Mängel am Saal meldet jeder mit Foto oder Text; die Instandhaltung antwortet im Gespräch.
+- Ein QR-Code als Aushang im Saal führt direkt zur Meldung.
+
+**Raumbelegung und geteilter Saal**
+
+- Wer welchen Raum wann belegt; wiederkehrende Termine buchen den Raum gleich mit.
+- Versammlungen, die sich einen Saal teilen, treten einer Versammlungs-Gruppe bei und stellen
+  Reinigungspläne, Treffpunkte, Teams und allgemeine Termine versammlungsübergreifend bereit.
+
+<p align="center">
+  <img src="bilder/kalender.png" width="820" alt="Kalender „Meine Termine“ mit Reinigung, Zusammenkünften und Trolley">
+</p>
+
+### 📣 Kommunikation
+
+**Aushang**
+
+- Das schwarze Brett der Versammlung, digital: Plakate zum Wischen, Neues ist markiert. Ausdrucke
+  direkt aus dem Seitenkopf.
 
 **Eilmeldungen**
 
-- Versende eine Info an alle oder eine bestimmte Personengruppe — als Nachricht, die man nicht übersieht.
+- Eine Info an alle oder eine bestimmte Personengruppe — als Nachricht, die man nicht übersieht.
 
-**Kalender-Abo**
+**Mitteilungen und Gespräche**
 
-- Verpasse keine Termine mehr. Abonniere die eigenen Einträge direkt in deiner Kalender-App des Smartphones oder Computers.
+- Push und E-Mail, beides im eigenen Profil einstellbar. Benachrichtigt wird nur, wen es betrifft.
+- Mitteilungen wie Mail: wischen zum Archivieren, ungelesene mit Punkt. Ersatzanfragen und Tickets
+  stehen gesammelt unter „Gespräche“ und lassen sich dort direkt beantworten.
 
-<!-- BILD: bilder/statistik.png — eine Auswertung mit letztem und nächstem Einsatz -->
+### 🧭 Versammlung einrichten und organisieren
+
+**Ersteinrichtung als Assistent**
+
+- Schritt für Schritt durch Datenschutz-Kontakt, Bereiche, Helfer und Zugänge. Danach zeigt die App,
+  was noch offen ist.
+- Personen und Predigtdienstgruppen aus einer Tabelle einlesen — mit Excel-Vorlage.
+
+**Leute ins Boot holen**
+
+- Eine Einladung auf einem Zettel: ein QR-Code, der einmal gilt.
+- Oder ein **Beitrittslink**: Personen legen sich selbst ein Konto an, der Verwalter gibt jedes frei
+  oder verwirft es.
+
+**Aufgaben verteilen**
+
+- Eine Seite für die ganze Versammlung: Älteste, Dienstamtgehilfen, Koordinator, Sekretär,
+  Gebietsdiener, Teams für Trolley und Instandhaltung.
+- Was jemand sehen und tun darf, folgt allein aus Status und Aufgaben. „So funktioniert“ erklärt je
+  Bereich, wer was darf.
+
+<p align="center">
+  <img src="bilder/aufgaben-verteilen.png" width="820" alt="Aufgaben verteilen: Status und Aufgaben der Versammlung auf einer Seite">
+</p>
+
+### 📱 Eine Oberfläche für Handy und Rechner
+
+**Startseite nach Wunsch**
+
+- Beim ersten Besuch „Einfach“ oder „Erweitert“ wählen — die Favoriten stellen sich passend zusammen.
+- Favoriten in drei Größen, Blöcke gedrückt halten und verschieben, Begrüßung und Suche ausblenden.
+
+**Lesbar auf jedem Gerät**
+
+- Am Handy werden Tabellen zu Listen; wer alle Spalten will, schaltet sie ein.
+- Hell, dunkel oder wie das System; Schriftgröße einstellbar.
+- Die Oberfläche spricht fünf Sprachen, darunter Deutsch, Englisch, Griechisch und Russisch.
 
 ### 📶 Unterwegs und offline
 
@@ -230,18 +380,42 @@ Im Gebiet, im Keller, auf dem Land — kein Empfang ist kein Problem.
 
 - Beim Öffnen der Startseite kommen Startseite, eigene Gebiete, aktueller Plan, Trolley-Plan und
   Kalender aufs Gerät — höchstens alle vier Stunden, auf Wunsch nur im WLAN.
-- Abschalten geht im Profil unter „Geräte".
+- Abschalten geht im Profil unter „Geräte“.
 
 **Für unterwegs laden**
 
-- Ein Knopf lädt alles auf einmal: Pläne samt nächster Periode, Termine für diesen und den nächsten
-  Monat, die eigenen Gebiete mit Bild, QR-Code und Karte.
+- Ein Knopf im Profil unter „Geräte“ lädt alles auf einmal: Pläne samt nächster Periode, Termine
+  für diesen und den nächsten Monat, die eigenen Gebiete mit Bild, QR-Code und Karte.
 - Die Gebietskarte zeigt offline die zuletzt gesehenen Ausschnitte.
 
 **Immer klar, was aktuell ist**
 
-- Jede Seite aus dem Speicher trägt oben „Offline — geladen am …". Die Startseite zeigt, wann
+- Jede Seite aus dem Speicher trägt oben „Offline — geladen am …“. Die Startseite zeigt, wann
   zuletzt geladen wurde und ob Seiten fehlen.
+
+### 🔐 Eigener Betrieb, eigene Daten
+
+**Selbst gehostet**
+
+- Die Anwendung läuft bei dir auf einem Rechner, bei einem Bruder der Versammlung oder einem
+  beliebigen Server. Es gibt keinen kostenpflichtigen Dienst dazwischen, der mitliest, und keine
+  Rechnung.
+
+**Anmeldung mit Passkey**
+
+- Fingerabdruck, Gesicht oder Geräte-PIN statt Passwort.
+
+**Sicherung per Knopfdruck**
+
+- Unter System → Sicherung lädt der Betreiber die ganze Anlage als verschlüsselte Datei herunter;
+  `restore.sh` spielt sie auf einer neuen Anlage ein.
+- **Notfallzugang:** Eine weitere Person darf nur diese Sicherung laden — für den Tag, an dem der
+  Betreiber nicht erreichbar ist.
+
+**Datenschutz ab Werk**
+
+- Datenschutzerklärung und AVV liegen bei, kurze Löschfristen sind eingebaut. Jeder lädt seine
+  eigenen Daten als Auskunft herunter.
 
 ## Die Technik - was gebraucht wird
 
@@ -288,13 +462,18 @@ tun ist, wenn Probleme auftreten.
 ./start.sh --update
 ```
 
-### Demo Daten anlegen
+### Demo-Daten anlegen
+
+Wer erst schauen will, legt eine erfundene Versammlung mit Personen, Plänen, Gebieten und Tickets an
+— dieselbe wie in der [Live-Demo](https://demo.rbnet.me):
 
 ```bash
 docker compose exec php bin/console app:demo:seed
 ```
 
-### Demo Daten entfernen
+Steht sie schon, fragt der Befehl, ob er ihr Zeitfenster auf heute verschieben soll.
+
+### Demo-Daten entfernen
 
 ```bash
 docker compose exec php bin/console app:demo:remove
